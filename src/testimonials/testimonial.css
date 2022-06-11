@@ -1,0 +1,99 @@
+.testimonials .section-title.text-center span.subtitle {
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-slider .slick-arrow {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3c3e41;
+    text-align: center;
+    opacity: 1;
+    transition: opacity .15s ease;
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    background: linear-gradient(145deg, #fafafa, #ffffff);
+    left: -18px;
+    border: 0;
+    z-index: 2;
+  }
+  
+  .testimonial-slider .next-arrow.slick-arrow {
+    left: auto;
+    right: -18px;
+  }
+  
+  .testimonial-item {
+    padding: 0 15px 30px 15px;
+  }
+  
+  .testimonial-item .testimonial-inner {
+    padding: 20px 30px;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    background: linear-gradient(145deg, #fafafa, #ffffff);
+  }
+  
+  .testimonial-body h3{
+    font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+  }
+  
+  .testimonial-item .testimonial-inner .testimonial-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  
+  .testimonial-item .testimonial-inner .testimonial-header .thumbnail{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .testimonial-item .testimonial-inner .testimonial-header .thumbnail img{
+    border-radius: 50%;
+  }
+  
+  .testimonial-item .testimonial-inner .testimonial-header .ts-header {
+    font-size: 14px;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 500;
+    transition: 0.4s;
+    color: #3c3e41;
+  }
+  
+  .testimonial-item .testimonial-inner .testimonial-header .ts-header span{
+    color: #f40097;
+    font-weight: 600;
+    font-size: 18px;
+    display: block;
+  }
+  
+  .testimonial-item .testimonial-inner .testimonial-body p.discription {
+    font-size: 16px;
+    line-height: 28px;
+    color: #3c3e41;
+    margin-bottom: 22px;
+    transition: 0.4s;
+    margin: 0;
+    font-weight: 400;
+    text-align: left;
+  }
+  
+  @media screen and (min-width: 991px) {
+    .testimonials {
+      padding: 60px 0;
+    }
+  }
+  
