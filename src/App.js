@@ -6,6 +6,7 @@ import Header from './header/Header';
 import Projects from './projects/Projects';
 import Testimonial from './testimonials/Testimonial';
 
+
 function App() {
   return (
    <div>
@@ -14,16 +15,16 @@ function App() {
     
       <main className="main-page-wrapper">
          {/* Banner Component */}
-        <Banner />       
+         <Banner />       
     
-        {/* Courses Component */}
-        <Course />
+         {/* Courses Component */}
+         <Course title="Recommended Courses for You"/>
     
-        {/* Testimonials Component */}
-		<Testimonial />
+         {/* Testimonials Component */}
+		   <Testimonial title="Testimonials"/>
     
-        {/* Projects Component */}
-		<Projects />
+         {/* Projects Component */}
+		   <Projects title="Latest Projects"/>
       </main>
     
        {/* Start Footer Area */}

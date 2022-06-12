@@ -1,5 +1,6 @@
 import React from 'react'
 import './footer.css'
+import footer from '../data/banner.json'
 
 const Footer = () => {
   return (
@@ -14,14 +15,10 @@ const Footer = () => {
                   </a>
                 </div>
                 <ul className="social-share d-flex liststyle justify-content-center">
-                  <li className="facebook"><a href="https://www.facebook.com/ZaidAhmad.Codes/"
-                      aria-label="Zaid Facebook Link" target="_blank" rel="noopener noreferrer"><i data-feather="facebook"></i></a></li>
-                  <li className="linkedin"><a href="https://www.linkedin.com/in/zaidahmaddev/"
-                      aria-label="Zaid Linkedin Link" target="_blank" rel="noopener noreferrer"><i data-feather="linkedin"></i></a></li>
-                  <li className="youtube"> <a href="https://www.youtube.com/zaidahmad"
-                      aria-label="Zaid YouTube Link" target="_blank" rel="noopener noreferrer"><i data-feather="youtube"></i></a></li>
-                  <li className="github"> <a href="https://github.com/zaidahmad-dev"
-                      aria-label="Zaid GitHub Link" target="_blank" rel="noopener noreferrer"><i data-feather="github"></i></a></li>
+                    {footer.social_media.map(social => (
+                        <li className={social.name}><a rel="noopener noreferrer" aria-label={social.label} href={social.url}
+                        target="_blank"><i data-feather={social.data_feather}></i></a></li>
+                     ))}
                 </ul>
                 <p className="description">© 2022. All rights reserved by <a href="https://www.zaidahmaddev.com">Zaid Ahmad.</a></p>
               </div>

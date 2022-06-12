@@ -13,12 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
             this.classList.add('active');
         });
 
-        // height code
-        // console.log($(".projects .project-content .project .inner .content").height());
-        // $(".projects .project-content .project .inner .content").height($(".projects .project-content .project .inner .content:first-child").height());        
 })});
-
-  
 
 const height = document.querySelector('.projects .project-content .project .inner .content .title').offsetHeight
 // setting this height to all the other ".projects .project-content .project .inner .content"

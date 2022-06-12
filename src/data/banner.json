@@ -1,0 +1,62 @@
+{
+    "title": "Zaid Ahmad",
+    "social_media_title": "find me at",
+    "banner_img": "images/slider/zaid-banner.png",
+    "titles": [
+        {
+            "title": "Developer",
+            "title1": "Instructor",
+            "title2": "Mentor",
+            "title3": "Content Creator"
+        }
+    ],
+    "social_media": [
+        {
+            "name": "facebook",
+            "url": "https://www.facebook.com/ZaidAhmad.Codes",
+            "label": "Zaid Facebook Link",
+            "data_feather": "facebook"
+        },
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/zaidahmaddev",
+            "label": "Zaid Linkedin Link",
+            "data_feather": "linkedin"
+        },
+        {
+            "name": "youtube",
+            "url": "https://www.youtube.com/zaidahmad",
+            "label": "Zaid youtube Link",
+            "data_feather": "youtube"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/zaidahmad-dev",
+            "label": "Zaid Github Link",
+            "data_feather": "github"
+        }
+    ],
+    "technology_icons_title": "best skilled in",
+    "technology_icons": [
+        {
+            "url": "images/icons/html-5.png",
+            "alt": "html5"
+        },
+        {
+            "url": "images/icons/css-3.png",
+            "alt": "CSS3"
+        },
+        {
+            "url": "images/icons/js.png",
+            "alt": "JavaScript"
+        },
+        {
+            "url": "images/icons/icons-16.png",
+            "alt": "ReactJS"
+        },
+        {
+            "url": "images/icons/shopify.png",
+            "alt": "Shopify"
+        }
+    ]
+}

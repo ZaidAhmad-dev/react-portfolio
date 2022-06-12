@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Thara Messeroux",
+        "lessons": 14,
+        "heading": "Highly Recommended!!",
+        "review": "I highly recommend Zaid!! He is such a talented software engineer with amazing web dev skills!! He is also patient with a great sense of humor! He has helped me a lot in my web dev class and I am learning so much from him. I am hoping to keep taking lessons with him until the end of my semester. I couldn't recommend him enough!!",
+        "avatar": "images/client/png/girl-avatar.png"
+
+    },
+    {
+        "name": "Elaizha",
+        "lessons": 10,
+        "heading": "Knowledgeable and patient tutor",
+        "review": "Zaid is teaching me HTML and CSS coding. This is my first time working with this type of coding and Zaid has been more than patient with me. He also goes over any problems I may have trouble with and explains step by step. He’s a great tutor and would recommend him!",
+        "avatar": "images/client/png/girl-avatar.png"
+
+    },
+    {
+        "name": "Karen",
+        "lessons": 2,
+        "heading": "Extremely knowledgeable and helpful",
+        "review": "Zaid is so knowledgeable and really went above and beyond to help me with the JavaScript concepts that I did not understand. I highly recommend Zaid as your next tutor! ",
+        "avatar": "images/client/png/girl-avatar.png"
+
+    },
+    {
+        "name": "Julianne",
+        "lessons": 10,
+        "heading": "Very thorough and knowledgable!",
+        "review": "Zaid basically can teach you anything that has to do with coding in CSS, HTML, JavaScript, and beyond. He is willing to work with my availability and prepared for the tutoring session.",
+        "avatar": "images/client/png/girl-avatar.png"
+
+    },
+    {
+        "name": "Alexandrea",
+        "lessons": 5,
+        "heading": "Quick, Knowledgeable, and efficient",
+        "review": "Zaid helped me tremendously with my HTML and CSS projects! He gave clear and helpful instructions and explained things in a way that was easy to understand. I highly recommend Zaid for any help you may need with CSS or HTML. He's the best!",
+        "avatar": "images/client/png/girl-avatar.png"
+    },
+    {
+        "name": "Gabriel",
+        "lessons": 3,
+        "heading": "Great Tutor!",
+        "review": "He is very quick and to the point with all of the questions that you have. Answers them correctly, and knew everything that was needed in order to help me with my questions. I recommend this tutor!",
+        "avatar": "images/client/png/boy-avatar.png"
+
+    },
+    {
+        "name": "Elena",
+        "lessons": 3,
+        "heading": "Zaid is a great tutor!",
+        "review": "Zaid is super patient, very knowledgeable with CSS and Bootstrap. Had a few classes with him already, every time I had different problems solved which I got stuck for hours and days. He’s also very nice and encouraging! Great experience, will continue to work with him moving forward.",
+        "avatar": "images/client/png/boy-avatar.png"
+    }
+]
