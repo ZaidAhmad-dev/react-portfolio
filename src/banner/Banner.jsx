@@ -60,7 +60,7 @@ const Banner = () => {
           <div className="order-1 order-lg-2 col-lg-5">
             <div className="thumbnail">
               <div className="inner">
-                <img src={banner.banner_img} alt={banner.banner_img}/>
+                <img src={banner.banner_img} srcSet={banner.banner_img_srcset} alt={banner.banner_img}/>
               </div>
             </div>
           </div>

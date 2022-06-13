@@ -1,7 +1,8 @@
 {
     "title": "Zaid Ahmad",
     "social_media_title": "find me at",
-    "banner_img": "images/slider/zaid-banner.png",
+    "banner_img": "https://ik.imagekit.io/zaid/zaid-banner_Y5kB8UDWo.png",
+    "banner_img_srcset": "https://ik.imagekit.io/zaid/tr:w-400/zaid-banner_Y5kB8UDWo.png 400w, https://ik.imagekit.io/zaid/tr:w-800/zaid-banner_Y5kB8UDWo.png 800w, https://ik.imagekit.io/zaid/tr:w-1200/zaid-banner_Y5kB8UDWo.png 1200w",
     "titles": [
         {
             "title": "Developer",
@@ -39,23 +40,23 @@
     "technology_icons_title": "best skilled in",
     "technology_icons": [
         {
-            "url": "images/icons/html-5.png",
+            "url": "https://ik.imagekit.io/zaid/icons/html-5_lZ1WnsgkN1.png",
             "alt": "html5"
         },
         {
-            "url": "images/icons/css-3.png",
+            "url": "https://ik.imagekit.io/zaid/icons/icons-18__S6PWdLHPT.png",
             "alt": "CSS3"
         },
         {
-            "url": "images/icons/js.png",
+            "url": "https://ik.imagekit.io/zaid/icons/js_hE83N4vUag.png",
             "alt": "JavaScript"
         },
         {
-            "url": "images/icons/icons-16.png",
+            "url": "https://ik.imagekit.io/zaid/icons/icons-16_BVatmacLsJ.png",
             "alt": "ReactJS"
         },
         {
-            "url": "images/icons/shopify.png",
+            "url": "https://ik.imagekit.io/zaid/icons/shopify_it7T4KSHOW.png",
             "alt": "Shopify"
         }
     ]

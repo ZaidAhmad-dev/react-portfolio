@@ -4,34 +4,34 @@
         "language": "English",
         "url": "https://www.youtube.com/playlist?list=PL-MmPNMopyaJ725rQQ0GQ70IPm1cEkyfK",
         "alt": "Object Oriented Programming with JavaScript",
-        "image": "images/courses/OOP-Thumbnail.png"
+        "image": "https://ik.imagekit.io/zaid/OOP-Thumbnail_v2WrLxVNY.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655082109699"
     },
     {
         "title": "Vanilla JavaScript Projects",
         "language": "English",
         "url": "https://www.youtube.com/playlist?list=PL-MmPNMopyaKUXMCthMIpMt51CQhhIujo",
         "alt": "Vanilla JavaScript Projects",
-        "image": "images/courses/vanilla-javascript-projects.png"
+        "image": "https://ik.imagekit.io/zaid/vanilla-javascript-projects_n5VELdvjw.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655082109146"
     },
     {
         "title": "Introduction to JavaScript",
         "language": "Urdu",
         "url": "https://www.youtube.com/playlist?list=PL-MmPNMopyaLVUok6SzZ9C1Gz9dsgRkmf",
         "alt": "Introduction to JavaScript",
-        "image": "images/courses/what-is-javascript.png"
+        "image": "https://ik.imagekit.io/zaid/what-is-javascript_aAR3lvOHS.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655082106862"
     },
     {
         "title": "Modern JavaScript ES6",
         "language": "Urdu",
         "url": "https://www.youtube.com/playlist?list=PL-MmPNMopyaIX2Y9ctG7sbr9Bd6zFDFhU",
         "alt": "Modern JavaScript ES6",
-        "image": "images/courses/ES6.png"
+        "image": "https://ik.imagekit.io/zaid/ES6_ua4JE8UnI.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655082106074"
     },
     {
         "title": "HTML Template using Boostrap4",
         "language": "Urdu",
         "url": "https://www.youtube.com/playlist?list=PL-MmPNMopyaKVZwh6DnkbX7snLwQi-Qtl",
         "alt": "HTML Template using Boostrap4",
-        "image": "images/courses/bootstrap-template.png"
+        "image": "https://ik.imagekit.io/zaid/bootstrap-template_CJ5-38Rdc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655082112076"
     }
 ]

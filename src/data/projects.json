@@ -4,20 +4,20 @@
         "button_label": "View Project",
         "url": "https://netflix-clone-532dd.web.app/",
         "alt": "NETFLIX CLONE using ReactJS with MoviesDB API",
-        "image": "images/projects/netflix.jpg"
+        "image": "https://ik.imagekit.io/zaid/netflix_hcjOo2C68.jpg"
     },
     {
         "title": "COVID-19 Live Tracker",
         "button_label": "View Project",
         "url": "https://covid-19-tracker-f43cc.web.app/",
         "alt": "COVID-19 Live Tracker",
-        "image": "images/projects/covid.jpg"
+        "image": "https://ik.imagekit.io/zaid/covid_xwdF4X1mi.jpg"
     },
     {
         "title": "GPT3 Landing Page",
         "button_label": "View Project",
         "url": "https://gpt3-responsive-landing-page.netlify.app/",
         "alt": "GPT3 Landing Page",
-        "image": "images/projects/gpt3.jpg"
+        "image": "https://ik.imagekit.io/zaid/gpt3_zmhWreflm.jpg"
     }
 ]

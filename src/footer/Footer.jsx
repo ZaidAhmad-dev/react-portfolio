@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="footer-area text-center">
                 <div className="logo">
                   <a href="index.html">
-                    <img src="images/slider/zaid-banner.png" alt="logo"/>
+                    <img src={footer.banner_img} srcSet={footer.banner_img_srcset} alt={footer.title}/>
                   </a>
                 </div>
                 <ul className="social-share d-flex liststyle justify-content-center">
