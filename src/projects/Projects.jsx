@@ -23,13 +23,13 @@ const Projects = ({title}) => {
          <div className="project" data-toggle="modal" data-target="#exampleModalCenter">
            <div className="inner">
              <div className="thumbnail">
-               <a href={project.url} aria-label={project.alt} target="_blank" rel="noopener noreferrer">
+               <a href={project.url} aria-label={project.alt} title={project.alt} target="_blank" rel="noopener noreferrer">
                  <img src={project.image} alt={project.alt}/>
                </a>
              </div>
              <div className="content">
-               <h4 className="title">{project.title}</h4>
-               <a href={project.url} className="btn btn-primary">{project.button_label}</a>
+               <h3 className="title">{project.title}</h3>
+               <a href={project.url} title={project.alt} className="btn btn-primary">{project.button_label}</a>
              </div>
            </div>
          </div>

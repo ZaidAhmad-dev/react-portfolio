@@ -24,7 +24,7 @@ const Course = ({title}) => {
 								<div className="course" data-toggle="modal" data-target="#exampleModalCenter">
 									<div className="inner">
 										<div className="thumbnail">
-											<a href={course.url} aria-label={course.alt} target="_blank" rel="noopener noreferrer">
+											<a href={course.url} title={course.alt} aria-label={course.alt} target="_blank" rel="noopener noreferrer">
 												<img src={course.image} alt={course.alt}/>
 											</a>
 										</div>
@@ -34,7 +34,7 @@ const Course = ({title}) => {
 													<button type='button'>{course.language}</button>
 												</div>
 											</div>
-											<h3 className="title"><a href={course.url} aria-label={course.alt} target="_blank" rel="noopener noreferrer">{course.title}</a></h3>
+											<h3 className="title"><a href={course.url} title={course.alt} aria-label={course.alt} target="_blank" rel="noopener noreferrer">{course.title}</a></h3>
 										</div>
 									</div>
 								</div>

@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="col-lg-12">
               <div className="footer-area text-center">
                 <div className="logo">
-                  <a href="index.html">
+                  <a href="https://zaidahmaddev.com" title={footer.title}>
                     <img src={footer.banner_img} srcSet={footer.banner_img_srcset} alt={footer.title}/>
                   </a>
                 </div>
