@@ -3,8 +3,6 @@ import './course.css'
 import courses from '../data/courses.json';
 
 const Course = ({title}) => {
-
-
 	return (
 		 <div id="courses" className="courses portfolio-section"  data-aos="fade-up" data-aos-duration="1000">
 					<div className="container">
