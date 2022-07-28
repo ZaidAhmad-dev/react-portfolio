@@ -39,7 +39,6 @@ if (document.readyState == 'complete')
             this._document = $(document),
             this._body = $('body'),
             this._html = $('html')
-
         },
 
         methods: function (e) {
@@ -92,126 +91,10 @@ if (document.readyState == 'complete')
             });
         },
 
-        testimonialActivation: function () {
-            $('.testimonial-activation').slick({
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots: true,
-                arrows: true,
-                adaptiveHeight: true,
-                cssEase: 'linear',
-                prevArrow: '<button class="slide-arrow prev-arrow"><i class="feather-arrow-left"></i></button>',
-                nextArrow: '<button class="slide-arrow next-arrow"><i class="feather-arrow-right"></i></button>'
-            });
-
-            $('.testimonial-item-one').slick({
-                infinite: true,
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                dots: true,
-                arrows: true,
-                adaptiveHeight: true,
-                cssEase: 'linear',
-                prevArrow: '<button class="slide-arrow prev-arrow"><i class="feather-chevron-left"></i></button>',
-                nextArrow: '<button class="slide-arrow next-arrow"><i class="feather-chevron-right"></i></button>',
-                responsive: [
-                {
-                    breakpoint: 1200,
-                    settings: {
-                        arrows: false,
-                    }
-                }]
-            });
-
-
-            $('.portfolio-slick-activation').slick({
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                dots: false,
-                arrows: true,
-                cssEase: 'linear',
-                adaptiveHeight: true,
-                prevArrow: '<button class="slide-arrow prev-arrow"><i class="feather-arrow-left"></i></button>',
-                nextArrow: '<button class="slide-arrow next-arrow"><i class="feather-arrow-right"></i></button>',
-                responsive: [{
-                        breakpoint: 1124,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 868,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 576,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                            dots: true,
-                            arrows: false,
-                        }
-                    }
-                ]
-            });
-
-            $('.testimonial-slider').slick({
-                arrows: true,
-                dots: true,
-                infinite: true,
-                speed: 500,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                adaptiveHeight: true,
-                prevArrow: '<button class="slide-arrow prev-arrow"><i class="feather-chevron-left"></i></button>',
-                nextArrow: '<button class="slide-arrow next-arrow"><i class="feather-chevron-right"></i></button>',
-                responsive: [{
-                        breakpoint: 1124,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1,
-                        }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 2,
-                            slidesToScroll: 1,
-                            arrows: false,
-                        }
-                    },
-                    {
-                        breakpoint: 577,
-                        settings: {
-                            slidesToShow: 1,
-                            slidesToScroll: 1,
-                            arrows: false,
-                        }
-                    }
-                ]
-            });
-
-            $('.testimonial-slider').on('setPosition', function () {
-                $(this).find('.slick-slide').height('auto');
-                var slickTrack = $(this).find('.slick-track');
-                var slickTrackHeight = $(slickTrack).height();
-                $(this).find('.slick-slide').css('height', slickTrackHeight + 'px');
-            });
-
-          
-
-        },
 
         featherAtcivation: function () {
             feather.replace()
         },
-
 
         backToTopInit: function () {
             // declare variable
@@ -271,54 +154,6 @@ if (document.readyState == 'complete')
                 $('.video-overlay.open').removeClass('open').find('iframe').remove();
             };
         },
-
-        mobileMenuActive: function (e) {
-            $('.humberger-menu').on('click', function (e) {
-                e.preventDefault();
-                $('.popup-mobile-menu').addClass('menu-open');
-                imJs._html.css({
-                    overflow: 'hidden'
-                })
-            });
-
-            $('.close-menu-activation, .popup-mobile-menu .primary-menu .nav-item a').on('click', function (e) {
-                e.preventDefault();
-                $('.popup-mobile-menu').removeClass('menu-open');
-                $('.has-droupdown > a').removeClass('open').siblings('.submenu').removeClass('active').slideUp('400');
-                imJs._html.css({
-                    overflow: ''
-                })
-            });
-
-            $('.popup-mobile-menu').on('click', function (e) {
-                e.target === this && $('.popup-mobile-menu').removeClass('menu-open');
-                imJs._html.css({
-                    overflow: ''
-                })
-            });
-
-
-            $('.has-droupdown > a').on('click', function (e) {
-                e.preventDefault();
-                $(this).siblings('.submenu').toggleClass('active').slideToggle('400');
-                $(this).toggleClass('open');
-                imJs._html.css({
-                    overflow: ''
-                })
-            });
-
-
-            $('.nav-pills .nav-link').on('click', function (e) {
-                $('.rn-popup-mobile-menu').removeClass('menu-open');
-                imJs._html.css({
-                    overflow: ''
-                })
-            })
-
-            // adding active class to first child of navbar li
-            $(".primary-menu li a:first").addClass("active");
-        },
-   
     }
     imJs.m();
 

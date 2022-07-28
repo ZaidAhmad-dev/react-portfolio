@@ -4,10 +4,9 @@ import courses from '../data/courses.json';
 
 const Course = ({title}) => {
 
-
 	return (
-		 <div id="courses" className="courses portfolio-section"  data-aos="fade-up" data-aos-duration="1000">
-					<div className="container">
+		<div id="courses" className="courses portfolio-section"  data-aos="fade-up" data-aos-duration="1000">
+			<div className="container">
 						<div className="row">
 							<div className="col-lg-12">
 								<div data-aos="fade-up" data-aos-duration="500" data-aos-delay="100" data-aos-once="true"
@@ -16,7 +15,6 @@ const Course = ({title}) => {
 								</div>
 							</div>
 						</div>
-				
 						<div className="row">
 							{courses.map(course => (
 								<div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
@@ -41,8 +39,8 @@ const Course = ({title}) => {
 							</div>	
 							))}
 						</div>
-					</div>
-				</div>
+			</div>
+		</div>
 	)
 }
 

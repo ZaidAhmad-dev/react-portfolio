@@ -1,58 +1,21 @@
-/* Default  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&amp;display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap");
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  margin: 0;
-  padding: 0;
-  font-size: 10px;
-  overflow: hidden;
-  overflow-y: auto;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-size: 18px;
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-family: "Poppins", sans-serif;
-  color: #878e99;
-  font-weight: 400;
-  background-color: #fafafa;
-  text-align: left;
-}
-
-img {
-  -ms-interpolation-mode: bicubic;
-  border: 0;
-  vertical-align: middle;
-  max-width: 100%;
-  height: auto;
-}
-
-ul {
-  list-style: none;
-}
-
-a {
-  color: #fff;
-  text-decoration: none;
-  outline: none;
-}
-
-ul li a:hover {
+a.btn.btn-primary {
+  background: linear-gradient(145deg, #fafafa, #ffffff);
   color: #f40097;
+  border: 1px solid #fa0097;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 100px;
+  padding: 8px 16px;
+  transition: 0.4s;
 }
 
-svg:not(:root) {
-  overflow: hidden;
+h1 {
+  font-weight: 700;
+  margin-bottom: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  color: #1e2125;
 }
 
 .nav-pills .nav-link {
@@ -60,7 +23,7 @@ svg:not(:root) {
   border-radius: 0.25rem;
 }
 
-.portfolio-section{
+.portfolio-section, .error-wrapper{
   padding: 20px 0;
   font-family: 'Montserrat', sans-serif;
 }
@@ -74,21 +37,13 @@ svg:not(:root) {
   line-height: 1.2;
 }
 
-ul.slick-dots {
-  width: auto;
-  top: auto;
-  z-index: 3;
-  position: absolute;
-  left: 50%;
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-  transform: translateX(-50%);
-  bottom: -40px;
-}
-
 .slick-dots li button::before {
   display: none;
+}
+
+.slick-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 ul.slick-dots li {
@@ -99,17 +54,15 @@ ul.slick-dots li {
 }
 
 ul.slick-dots li button {
-
   font-size: 0;
-line-height: 0;
-width: 11px;
-height: 11px;
-padding: 0;
-cursor: pointer;
-border: 0;
-border-radius: 50%;
-transition: 0.4s;
-
+  line-height: 0;
+  width: 11px;
+  height: 11px;
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  border-radius: 50%;
+  transition: 0.4s;
   background: #ced2d5;
   box-shadow: none;
 }
@@ -288,11 +241,6 @@ ul li a {
   font-family: "Montserrat", sans-serif;
 }
 
-.inner .menu-top {
-  position: absolute;
-  right: 20px;
-}
-
 .social-share-wrapper .social-share li, .footer-area .social-share li {
   margin: 0 15px 0 0;
 }
@@ -377,7 +325,7 @@ ul li a {
 
 @media screen and (min-width: 768px) {
   header {
-    position: absolute;
+    position: sticky;
     top: 0;
     z-index: 999;
     width: 100%;

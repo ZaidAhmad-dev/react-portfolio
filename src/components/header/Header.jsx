@@ -1,10 +1,12 @@
-import React from "react";
+import { useState } from "react";
 
 const Header = () => {
+	const [isOpen, setIsOpen] = useState(false);
+	// menu-open
   return (
-	<div>
-    <div className="header-area">
-      <header className="header-sticky">
+	<>
+    	<div className="header-area">
+    	<header className="header-sticky">
         <div className="container">
           <div className="row">
             <div className="header-wrapper row align-items-center">
@@ -20,20 +22,19 @@ const Header = () => {
               {/* Start Header Center */}
               <div className="col-lg-10 col-6">
                 <div className="header-center">
-                  <nav id="sideNav" className="mainmenu-nav navbar-example2 d-none d-xl-block">
+                  <nav id="sideNav" className="mainmenu-nav navbar-example2 d-none d-lg-block">
                     {/* Start Mainmanu Nav */}
                     <ul className="primary-menu nav nav-pills">
                       <li className="nav-item"><a className="nav-link smoth-animation active" href="#home">Home</a></li>
                       <li className="nav-item"><a className="nav-link smoth-animation" href="#courses">Courses</a></li>
 					  <li className="nav-item"><a className="nav-link smoth-animation" href="#testimonial">Clients</a></li>
                       <li className="nav-item"><a className="nav-link smoth-animation" href="#projects">Projects</a></li>
-                    
                     </ul>
                     {/* End Mainmanu Nav */}
                   </nav>
                   {/* Start Header Right  */}
                   <div className="header-right">
-                    <div className="hamberger-menu d-block d-xl-none">
+                    <div className="hamberger-menu d-block d-xl-none" onClick={() => setIsOpen(true)}>
                       <i id="menuBtn" className="feather-menu humberger-menu"></i>
                     </div>
                     <div className="close-menu d-block">
@@ -47,19 +48,12 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </header>
-    </div>
-	 {/* Start Popup Mobile Menu  */}
-	 <div className="popup-mobile-menu">
-	 <div className="inner">
-	   <div className="menu-top">
-		 <div className="menu-header">
-		   <div className="close-button">
-			 <button className="close-menu-activation close"><i data-feather="x"></i></button>
-		   </div>
-		 </div>
-	   </div>
-	   <div className="content">
+    	  </header>
+    	</div>
+		{/* Start Popup Mobile Menu  */}
+		<div className={`popup-mobile-menu ${isOpen ? "menu-open" : ""}`}> 
+			<div className="inner">
+			<div className="content">
 		 <ul className="primary-menu nav nav-pills">
 		   <li className="nav-item"><a className="nav-link smoth-animation active" href="#home">Home</a></li>
 		   <li className="nav-item"><a className="nav-link smoth-animation" href="#courses">Courses</a></li>
@@ -110,10 +104,17 @@ const Header = () => {
 		   </ul>
 		 </div>
 		  {/* end */}
-	   </div>
-	 </div>
-   </div>
-   </div>
+	   		</div>
+			<div className="menu-top">
+				<div className="menu-header">
+					<div className="close-button">
+						<button className="close-menu-activation close" onClick={() => setIsOpen(false)}><i data-feather="x"></i></button>
+					</div>
+				</div>
+	   		</div>
+			</div>
+   		</div>
+   	</>
   );
 };
 
