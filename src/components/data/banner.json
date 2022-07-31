@@ -16,25 +16,25 @@
             "name": "facebook",
             "url": "https://www.facebook.com/ZaidAhmad.Codes",
             "label": "Zaid Facebook Link",
-            "data_feather": "facebook"
+            "data_feather": "<FiFacebook />"
         },
         {
             "name": "linkedin",
             "url": "https://www.linkedin.com/in/zaidahmaddev",
             "label": "Zaid Linkedin Link",
-            "data_feather": "linkedin"
+            "data_feather": "<FiFacebook />"
         },
         {
             "name": "youtube",
             "url": "https://www.youtube.com/zaidahmad",
             "label": "Zaid youtube Link",
-            "data_feather": "youtube"
+            "data_feather": "<FiFacebook />"
         },
         {
             "name": "github",
             "url": "https://github.com/zaidahmad-dev",
             "label": "Zaid Github Link",
-            "data_feather": "github"
+            "data_feather": "<FiFacebook />"
         }
     ],
     "technology_icons_title": "best skilled in",

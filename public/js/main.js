@@ -42,7 +42,6 @@ if (document.readyState == 'complete')
         },
 
         methods: function (e) {
-            imJs.featherAtcivation();
             imJs.backToTopInit();
             imJs.mobileMenuActive();
             imJs.vedioActivation();
@@ -89,11 +88,6 @@ if (document.readyState == 'complete')
             $('.rbt-sticky-top-adjust-three').css({
                 top: 25
             });
-        },
-
-
-        featherAtcivation: function () {
-            feather.replace()
         },
 
         backToTopInit: function () {
