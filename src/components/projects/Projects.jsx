@@ -1,8 +1,19 @@
 import React from 'react'
 import './projects.css'
 import projects from '../data/projects.json';
+import { useEffect } from 'react';
 
 const Projects = ({title}) => {
+
+
+  useEffect(() => {
+    const height = document.querySelector('.projects .project-content .project .inner .content .title').offsetHeight
+    // setting this height to all the other ".projects .project-content .project .inner .content"
+    document.querySelectorAll('.projects .project-content .project .inner .content .title').forEach(function(item) {
+      item.style.height = height + 'px';
+    })
+  }, [])
+
   return (
     <div id="projects" className="projects portfolio-section" data-aos="fade-up" data-aos-duration="1000">
     <div className="container">
@@ -17,8 +28,8 @@ const Projects = ({title}) => {
   
       <div className="row">
 
-      {projects.map(project => (
-         <div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
+      {projects.map((project, index) => (
+         <div key={index} data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
          className="col-lg-6 col-xl-4 col-md-6 col-12 aos-init aos-animate project-content">
          <div className="project" data-toggle="modal" data-target="#exampleModalCenter">
            <div className="inner">
@@ -35,7 +46,6 @@ const Projects = ({title}) => {
          </div>
        </div>
       ))}
-        
       </div>
     </div>
 </div>

@@ -16,8 +16,8 @@ const Course = ({title}) => {
 							</div>
 						</div>
 						<div className="row">
-							{courses.map(course => (
-								<div data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
+							{courses.map((course, index) => (
+								<div key={index} data-aos="fade-up" data-aos-delay="100" data-aos-once="true"
 								className="col-lg-6 col-xl-4 col-md-6 col-12 aos-init aos-animate course-content">
 								<div className="course" data-toggle="modal" data-target="#exampleModalCenter">
 									<div className="inner">

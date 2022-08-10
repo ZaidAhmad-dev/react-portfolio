@@ -1,6 +1,6 @@
 import './footer.css';
-import { FiFacebook, FiTwitter, FiInstagram, FiYoutube } from "react-icons/fi";
 import footer from '../data/banner.json';
+import SocialIcons from '../SocialIcons/SocialIcons';
 
 const Footer = () => {
 	return (
@@ -14,12 +14,7 @@ const Footer = () => {
 										<img src={footer.banner_img} srcSet={footer.banner_img_srcset} alt={footer.title}/>
 									</a>
 								</div>
-								<ul className="social-share d-flex liststyle justify-content-center">
-										{footer.social_media.map(social => (
-												<li className={social.name}><a rel="noopener noreferrer" aria-label={social.label} href={social.url}
-												target="_blank">{social.data_feather}</a></li>
-										 ))}
-								</ul>
+								<SocialIcons/>
 								<p className="description">© 2022. All rights reserved by <a href="https://www.zaidahmaddev.com">Zaid Ahmad.</a></p>
 							</div>
 						</div>

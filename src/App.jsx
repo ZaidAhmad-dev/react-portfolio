@@ -1,11 +1,19 @@
 import { Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Home from './pages/Home/Home';
 import NotFound from './pages/NotFound/NotFound';
+import AOS from 'aos';
+import "aos/dist/aos.css";
 import './App.css';
 
 function App() {
+	useEffect(() => {
+		AOS.init();
+		AOS.refresh();
+	  }, []);
+	
 	return (
 		<>
 			<Header />

@@ -1,12 +1,28 @@
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 const Header = () => {
+	const ref = useRef();
+
 	const [isOpen, setIsOpen] = useState(false);
-	// menu-open
+
+	useEffect(() => {
+		const handleScroll = () => {
+			if (window.scrollY > 250) {
+				ref.current.classList.add("sticky");
+			} else {
+				ref.current.classList.remove("sticky");
+			}
+		};
+		window.addEventListener("scroll", handleScroll);
+		return () => {
+			window.removeEventListener("scroll", handleScroll);
+		}
+	}, []);
+
   return (
 	<>
     	<div className="header-area">
-    	<header className="header-sticky">
+    	<header className="header-sticky" ref={ref}>
         <div className="container">
           <div className="row">
             <div className="header-wrapper row align-items-center">

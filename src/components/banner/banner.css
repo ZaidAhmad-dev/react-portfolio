@@ -99,47 +99,7 @@
     margin-bottom: 20px;
   }
   
-  .slide .social-share-inner-left ul.social-share{
-    flex-wrap: wrap;
-    margin-bottom: 40px;
-  }
-  
-  .slide .social-share-inner-left ul.social-share li{
-    margin: 0 20px 20px 0;
-  }
-  
-  .slide .social-share-inner-left ul.social-share li:last-child{
-    margin: 0;
-  }
-  
-  .slide .social-share-inner-left .social-share li:not(:last-child) {
-    margin-right: 20px;
-  }
-  
-  .slide .social-share-inner-left .social-share li a {
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-radius: 50%;
-    transition: 0.4s;
-    background: linear-gradient(145deg, #fafafa, #ffffff);
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;;
-    position: relative;
-  }
-  
-  .slide .social-share-inner-left .social-share li a svg {
-    color: #3c3e41;
-    transition: 0.4s;
-    stroke-width: 2;
-    position: relative;
-    z-index: 2;
-    width: 20px;
-  }
+
   
   .slide .social-share-inner-left .social-share li a:hover svg, .footer-area .social-share li a:hover svg {
     color: #fff;

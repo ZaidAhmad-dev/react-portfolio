@@ -49,6 +49,8 @@
   
   .projects .project-content .project .inner .thumbnail a img{
     max-height: 270px;
+    min-height: 270px;
+    object-fit: cover;
     width: 100%;
     border-radius: 10px;
   }
