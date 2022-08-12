@@ -2,7 +2,7 @@ import React, { useEffect } from 'react'
 import Typed from 'typed.js';
 import './banner.css'
 import banner from '../data/banner.json'
-import SocialIcons from '../SocialIcons/SocialIcons'
+import Findme from '../Findme/Findme';
 
 const Banner = () => {
 
@@ -10,7 +10,7 @@ const Banner = () => {
 
     var options = {
       strings: ['Developer', 'Instructor', 'Mentor', 'Content Creator'],
-      typeSpeed: 40,
+      typeSpeed: 120,
       backSpeed: 20,
       backDelay: 2000,
       startDelay: 1000,
@@ -38,12 +38,7 @@ const Banner = () => {
               </div>
               <div className="row" data-aos="fade-up" data-aos-duration="700" data-aos-delay="900">
                 <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12">
-                  <div className="social-share-inner-left">
-                    <span className="title">{banner.social_media_title}</span>
-                    <ul className="social-share d-flex liststyle">
-                      <SocialIcons/>
-                    </ul>
-                  </div>
+                  <Findme/>
                 </div>
                 <div className="col-lg-6 col-xl-6 col-md-6 col-sm-6 col-12 mt_mobile--30">
                   <div className="skill-share-inner">

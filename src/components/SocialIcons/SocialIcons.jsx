@@ -26,7 +26,7 @@ const SocialIcons = () => {
     ];
 
     return (
-        <ul className="social-share d-flex liststyle justify-content-center">
+        <ul className="social-share d-flex liststyle">
             {socialIcons.map((social, index) => (
                     <li key={index} className="social-icon"><a rel="noopener noreferrer" aria-label={social.label} href={social.url}
                     target="_blank">

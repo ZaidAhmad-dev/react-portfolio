@@ -23,5 +23,6 @@
   }
   
   .footer-wrapper .footer-area ul.social-share{
+    justify-content: center;
     margin-bottom: 30px;
   }
