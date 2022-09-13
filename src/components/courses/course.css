@@ -2,11 +2,13 @@
     margin-bottom: 20px;
   }
   
-  .courses .course-content {
+  .course-content {
     margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 30px;
   }
   
-  .courses .course-content .course {
+  .course {
     text-align: left;
     padding: 20px;
     position: relative;
@@ -21,33 +23,33 @@
     width: 100%;
   }
   
-  .courses .course-content .course .inner .thumbnail{
+  .course .inner .thumbnail{
     margin-bottom: 20px;
   }
   
-  .courses .course-content .course .inner .thumbnail a {
+  .course .inner .thumbnail a {
     display: block;
     overflow: hidden;
     border-radius: 10px;
   }
   
-  .courses .course-content .course .inner .thumbnail a img{
+  .course .inner .thumbnail a img{
     width: 100%;
     transition: 0.4s;
     height: auto;
     object-fit: cover;
   }
   
-  .courses .course-content .course:hover{
+  .course:hover{
     transform: translateY(-4px);
     transition: .25s;
   }
   
-  .courses .course-content .course .inner .content .category-info{
+  .course .inner .content .category-info{
     margin-bottom: 10px;
   }
   
-  .courses .course-content .course .inner .content .category-info .category-list button {
+  .course .inner .content .category-info .category-list span.course-date {
     color: #f40097;
     font-weight: 600;
     font-size: 12px;
@@ -59,11 +61,7 @@
     background: none;
   }
   
-  .courses .course-content .course .inner .content .category-info .category-list button:hover{
-    text-decoration: none;
-  }
-  
-  .courses .course-content .course .inner .content .title a {
+  .course .inner .content .title a {
     font-size: 18px;
     line-height: 30px;
     transition: 0.4s;
@@ -71,14 +69,14 @@
     color: #1e2125;
   }
   
-  .courses .course-content .course .inner .content .title a:hover{
+  .course .inner .content .title a:hover{
     text-decoration: none;
     color: #f40097;
     transition: 0.4s;
   }
   
   @media screen and (min-width: 991px) {
-    .courses .course-content .course .inner .content .title a {
+    .course .inner .content .title a {
       font-size: 20px;
     }
   }

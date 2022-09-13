@@ -1,38 +1,45 @@
-import { useState, useEffect } from 'react';
-import Dropdown from 'react-bootstrap/Dropdown';
-import SplitButton from 'react-bootstrap/SplitButton';
-import Course from '../../components/courses/Course';
+import axios from "axios";
+import { useState, useEffect, createContext } from 'react';
+import CourseList from '../../components/courses/CourseList';
+import Search from "../../components/search/Search";
 import './courses.css';
 
-const Courses = ({title}) => {
+// export const CourseContext = createContext();
+
+const Courses = () => {
+
+    const [searchValue, setSearchValue] = useState('');
+	const [courses, setCourses] = useState([]);
+
+	useEffect(() => {
+		const options = {
+			method: 'GET',
+			url: 'https://youtube.googleapis.com/youtube/v3/playlists',
+			params: {
+				part: 'snippet',
+				maxResults: 50,
+				channelId: import.meta.env.VITE_CHANNEL_ID,
+				key: import.meta.env.VITE_YOUTUBE_API_KEY
+			}
+		};
+
+		axios.request(options).then(function (response) {
+			setCourses(response.data.items);
+		}).catch(function (error) {
+			console.error(error);
+		});
+	}, []);
+
 	return (
 		<>
-			<div id="courses" className="courses portfolio-section"  data-aos="fade-up" data-aos-duration="1000">
+			<div className="courses portfolio-section position-relative"  data-aos="fade-up" data-aos-duration="1000">
 				<div className="container">
 					<div className="row">
-						<div className="col-lg-12">
-							{['Primary'].map(
-      						  	(variant) => (
-      						  	  <SplitButton
-      						  	    key={variant}
-      						  	    id={`dropdown-split-variants-${variant}`}
-      						  	    variant={variant.toLowerCase()}
-									toggleLabel="All"
-      						  	    title="Category">
-      						  	    <Dropdown.Item eventKey="1" active>Action</Dropdown.Item>
-      						  	    <Dropdown.Item eventKey="2">Another action</Dropdown.Item>
-      						  	    <Dropdown.Item eventKey="3">Active Item</Dropdown.Item>
-      						  	    <Dropdown.Item eventKey="3">Active Item</Dropdown.Item>
-      						  	    <Dropdown.Item eventKey="3">Active Item</Dropdown.Item>
-      						  	    <Dropdown.Item eventKey="3">Active Item</Dropdown.Item>
-								  </SplitButton>
-      						  	),
-      						)}
-						</div>
+						<Search/>
+						<CourseList/>
 					</div>
 				</div>
 			</div>
-			<Course/>
 		</>
 	)
 }
