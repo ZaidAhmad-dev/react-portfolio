@@ -1,10 +1,11 @@
 import { useState, useEffect, useRef } from "react";
+import { Link, useLocation } from 'react-router-dom';
 import { MdMenu, MdClose } from "react-icons/md";
 import Findme from "../Findme/Findme";
 
 const Header = () => {
 	const ref = useRef();
-
+	const location = useLocation();
 	const [isOpen, setIsOpen] = useState(false);
 
 	useEffect(() => {
@@ -31,7 +32,7 @@ const Header = () => {
 								<div className={isOpen ? "d-none" : "col-lg-2 col-6"}>
 									<div className="header-left">
 										<div className="logo">
-											<a href="https://zaidahmaddev.com"><img src="images/logo_transparent.png" alt="logo" /></a>
+											<Link to="/"><img src="images/logo_transparent.png" alt="logo" /></Link>
 										</div>
 									</div>
 								</div>
@@ -39,10 +40,10 @@ const Header = () => {
 									<div className={isOpen? "header-center header-center-mobile justify-content-between align-items-baseline": "header-center justify-content-end"}>
 										<nav id="sideNav" className={isOpen ? "d-flex flex-column" : "mainmenu-nav navbar-example2 d-none d-md-block"}>
 											<ul className={isOpen? "primary-menu primary-menu-mobile nav nav-pills flex-column" : "primary-menu nav nav-pills" }>
-												<li className="nav-item"><a className="nav-link smoth-animation active" href="#home">Home</a></li>
-												<li className="nav-item"><a className="nav-link smoth-animation" href="#courses">Courses</a></li>
-												<li className="nav-item"><a className="nav-link smoth-animation" href="#testimonial">Clients</a></li>
-												<li className="nav-item"><a className="nav-link smoth-animation" href="#projects">Projects</a></li>
+												<li className="nav-item"><Link className={location.pathname === "/" ? "nav-link active" : "nav-link"} to="/">Home</Link></li>
+												<li className="nav-item"><Link className={location.pathname === "/Courses" ? "nav-link active": "nav-link"} to="/Courses">Courses</Link></li>
+												<li className="nav-item"><Link className={location.pathname === "/Clients" ? "nav-link active": "nav-link"} to="/Clients">Clients</Link></li>
+												<li className="nav-item"><Link className={location.pathname === "/Projects" ? "nav-link active": "nav-link"} to="/Projects">Projects</Link></li>
 											</ul>
 											<div className="col-12 px-0">
 												{isOpen ? <Findme/> : null}

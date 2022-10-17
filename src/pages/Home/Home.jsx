@@ -9,7 +9,7 @@ const Home = () => {
 		<main className="main-page-wrapper">
 			<Banner />       
 			<Course title="Recommended Courses for You"/>
-			<Testimonial title="Testimonials"/>
+			<Testimonial title="What people are saying?"/>
 			<Projects title="Latest Projects"/>
 		</main>
 	</>

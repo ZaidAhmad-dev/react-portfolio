@@ -3,7 +3,7 @@ import { CourseContext } from '../../Contexts/CourseContext';
 import './course.css';
 
 const CourseList = () => {
-	const { searchValue, setSearchValue, courses } = useContext(CourseContext);
+	const { searchValue, courses } = useContext(CourseContext);
 	const youtubeUrl = "https://www.youtube.com/playlist?list=";
 
 	return (

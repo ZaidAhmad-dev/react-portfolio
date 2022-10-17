@@ -10,6 +10,8 @@ import "aos/dist/aos.css";
 import './App.css';
 import { CourseContext } from './Contexts/CourseContext';
 import axios from 'axios';
+import Clients from './pages/Clients/Clients';
+import Projects from './components/projects/Projects';
 
 function App() {
 	const [searchValue, setSearchValue] = useState('');
@@ -45,6 +47,8 @@ function App() {
 			<Routes>
 				<Route exact path="/" element={<Home />} />
 				<Route path="/courses" element={<Courses title="" />} />
+				<Route path="/clients" element={<Clients/>} />
+				<Route path="/projects" element={<Projects title="Latest Projects"/>} />
 				<Route path="*" element={<NotFound />} ></Route>
 			</Routes>
 			<Footer />
