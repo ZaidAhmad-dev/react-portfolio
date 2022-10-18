@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import $ from 'jquery'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import * as ReactDOMClient from 'react-dom/client';
