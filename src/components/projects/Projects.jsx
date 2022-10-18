@@ -5,13 +5,14 @@ import { useEffect } from 'react';
 
 const Projects = ({ title }) => {
 
-
   useEffect(() => {
-    const height = document.querySelector('.projects .project-content .project .inner .content .title').offsetHeight
-    // setting this height to all the other ".projects .project-content .project .inner .content"
-    document.querySelectorAll('.projects .project-content .project .inner .content .title').forEach(function (item) {
-      item.style.height = height + 'px';
-    })
+    const height = document.querySelectorAll('.projects .project-content .project .inner .content .title');
+    const maxHeight = Math.max(...Array.from(height).map(el => el.offsetHeight));
+
+    document.querySelectorAll('.projects .project-content .project .inner .content .title').forEach(el => {
+      el.style.height = `${maxHeight}px`;
+    });
+
   }, [])
 
   return (
