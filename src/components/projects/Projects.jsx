@@ -38,7 +38,7 @@ const Projects = ({ title }) => {
                   </div>
                   <div className="content">
                     <h3 className="title">{project.title}</h3>
-                    <a href={project.url} title={project.alt} className="btn btn-primary">{project.button_label}</a>
+                    <a href={project.url} title={project.alt} className="btn btn-primary" target="_blank" rel="noopener noreferrer">{project.button_label}</a>
                   </div>
                 </div>
               </div>
