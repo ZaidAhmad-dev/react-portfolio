@@ -36,6 +36,7 @@
 
 form .input-group{
     position: relative;
+    justify-content: center;
 }
 
 form form input.search:focus-visible, form input.search:focus {

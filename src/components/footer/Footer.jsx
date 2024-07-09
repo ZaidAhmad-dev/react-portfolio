@@ -3,6 +3,7 @@ import footer from '../data/banner.json';
 import SocialIcons from '../SocialIcons/SocialIcons';
 
 const Footer = () => {
+	const currentYear = new Date().getFullYear(); // Get the current year
 	return (
 		<footer className="footer-wrapper portfolio-section">
 				<div className="container">
@@ -15,7 +16,7 @@ const Footer = () => {
 									</a>
 								</div>
 								<SocialIcons/>
-								<p className="description">© 2022. All rights reserved by <a href="https://www.zaidahmaddev.com">Zaid Ahmad.</a></p>
+								<p className="description">© {currentYear}. All rights reserved by <a href="https://www.zaidahmaddev.com">Zaid Ahmad.</a></p>
 							</div>
 						</div>
 					</div>

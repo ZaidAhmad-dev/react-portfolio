@@ -33,7 +33,7 @@ const Banner = () => {
                     <span>a </span> <span className="title-headline"></span>
                 </h1>
                 <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="600">
-                  <p className="description">I am a Front-end Developer, Instructor and Content Creator with 4+years of experience in modern technologies and framweworks like HTML, CSS, JavaScript, ReactJs, jQuery, Bootstrap, Shopify Liquid. I love teaching code and help others become better developers and there are <strong>100+</strong> happy Students. I also build Custom Shopify Themes, Setup Shopify E-Commerce Stores.</p>
+                  <p className="description">I am a Full stack Developer, Instructor and Content Creator with 3+years of experience in modern technologies and framweworks like HTML, CSS, JavaScript, jQuery, Bootstrap, ReactJs, Nodejs, Expressjs, MySQL, Postgresql, Shopify Liquid. I love teaching code and help others become better developers and there are <strong>100+</strong> happy Students. I also build Custom Shopify Themes, Setup Shopify E-Commerce Stores.</p>
                 </div>
               </div>
               <div className="row" data-aos="fade-up" data-aos-duration="700" data-aos-delay="900">

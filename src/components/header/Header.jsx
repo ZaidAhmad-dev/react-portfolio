@@ -22,6 +22,14 @@ const Header = () => {
 		}
 	}, []);
 
+	// Close menu when navigating to a different page
+	useEffect(() => {
+		if (isOpen) {
+			setIsOpen(false);
+			document.querySelector("html").classList.remove("overflow-hidden");
+		}
+	}, [location]);
+
 	return (
 		<>
 			<div className={isOpen? "header-area header-area-mobile" : "header-area"}>

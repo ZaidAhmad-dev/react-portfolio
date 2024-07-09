@@ -1,23 +1,44 @@
 [
     {
-        "title": "NETFLIX CLONE using ReactJS with MoviesDB API",
+        "title": "Equo Shopify Store",
         "button_label": "View Project",
-        "url": "https://netflix-clone-532dd.web.app/",
-        "alt": "NETFLIX CLONE using ReactJS with MoviesDB API",
-        "image": "https://ik.imagekit.io/zaid/netflix_hcjOo2C68.jpg"
+        "url": "https://shopequo.com/",
+        "alt": "Equo Shopify Store",
+        "image": "https://ik.imagekit.io/zaid/projects/equo-mobile_9nLdikT08.png"
     },
     {
-        "title": "COVID-19 Live Tracker",
+        "title": "Inklites Shopify Store",
         "button_label": "View Project",
-        "url": "https://covid-19-tracker-f43cc.web.app/",
-        "alt": "COVID-19 Live Tracker",
-        "image": "https://ik.imagekit.io/zaid/covid_xwdF4X1mi.jpg"
+        "url": "https://inklites.com/",
+        "alt": "Inklites Shopify Store",
+        "image": "https://ik.imagekit.io/zaid/projects/inklites-mobile_qfzyP2X0d.png"
     },
     {
-        "title": "GPT3 Landing Page",
+        "title": "Noisyclan Shopify Store",
         "button_label": "View Project",
-        "url": "https://gpt3-responsive-landing-page.netlify.app/",
-        "alt": "GPT3 Landing Page",
-        "image": "https://ik.imagekit.io/zaid/gpt3_zmhWreflm.jpg"
+        "url": "https://noisyclan.com/",
+        "alt": "Noisyclan Shopify Store",
+        "image": "https://ik.imagekit.io/zaid/projects/noisy-clan-mobile_cDp-h0cIfL.png"
+    },
+    {
+        "title": "Super Gut Shopify Store",
+        "button_label": "View Project",
+        "url": "https://www.supergut.com/",
+        "alt": "Super Gut Shopify Store",
+        "image": "https://ik.imagekit.io/zaid/projects/supergut-mobile_JXZ9O-OmQ.png"
+    },
+    {
+        "title": "Sidewalk - Wordpress",
+        "button_label": "View Project",
+        "url": "https://sidewalk.se/",
+        "alt": "Sidewalk - Wordpress",
+        "image": "https://ik.imagekit.io/zaid/projects/sidewalk-mobile_6lZ4YBhQH.png"
+    },
+    {
+        "title": "Inklites Shopify Store",
+        "button_label": "View Project",
+        "url": "https://inklites.com/",
+        "alt": "Inklites Shopify Store",
+        "image": "https://ik.imagekit.io/zaid/projects/inklites-mobile_qfzyP2X0d.png"
     }
 ]
