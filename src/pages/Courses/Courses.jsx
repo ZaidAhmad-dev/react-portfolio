@@ -9,8 +9,8 @@ import { CourseContext } from '../../Contexts/CourseContext';
 const Courses = () => {
 
 	useEffect(() => {
-	// https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLB03EA9545DD188C3&key=AIzaSyCCe49ArBE3ZDLgQJeQOnYZgbOQigeadFc
-	const options = {
+		// https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistId=PLB03EA9545DD188C3&key=AIzaSyCCe49ArBE3ZDLgQJeQOnYZgbOQigeadFc
+		const options = {
 			method: 'GET',
 			url: 'https://youtube.googleapis.com/youtube/v3/playlistItems',
 			params: {
@@ -28,19 +28,16 @@ const Courses = () => {
 			console.error(error);
 		}
 		);
-		
-
-
 
 	}, []);
 
 	return (
 		<>
-			<div className="courses portfolio-section position-relative"  data-aos="fade-up" data-aos-duration="1000">
+			<div className="courses portfolio-section position-relative" data-aos="fade-up" data-aos-duration="1000">
 				<div className="container">
 					<div className="row">
-						<Search/>
-						<CourseList/>
+						<Search />
+						<CourseList />
 					</div>
 				</div>
 			</div>

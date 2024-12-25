@@ -56,8 +56,17 @@
             "alt": "ReactJS"
         },
         {
+            "url": "https://ik.imagekit.io/zaid/icons/node-js-icon.png",
+            "alt": "NodeJS"
+        },
+        {
             "url": "https://ik.imagekit.io/zaid/icons/shopify_it7T4KSHOW.png",
             "alt": "Shopify"
+        },
+        {
+            "url": "https://ik.imagekit.io/zaid/icons/icons-20_4s_YfvvbNV.png",
+            "alt": "Wordpress"
         }
+        
     ]
 }

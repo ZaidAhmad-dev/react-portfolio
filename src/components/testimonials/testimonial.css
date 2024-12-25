@@ -70,7 +70,7 @@
   .testimonial-item .testimonial-inner .testimonial-header .ts-header {
     font-size: 14px;
     margin: 0;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     font-weight: 500;
     transition: 0.4s;
     color: #3c3e41;
