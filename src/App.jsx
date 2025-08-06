@@ -12,6 +12,7 @@ import { CourseContext } from './Contexts/CourseContext';
 import axios from 'axios';
 import Clients from './pages/Clients/Clients';
 import Projects from './components/projects/Projects';
+import FloatingWhatsApp from './components/floatingButton/FloatingWhatsApp';
 
 function App() {
 	const [searchValue, setSearchValue] = useState('');
@@ -47,11 +48,14 @@ function App() {
 			<Routes>
 				<Route exact path="/" element={<Home />} />
 				<Route path="/courses" element={<Courses title="" />} />
-				<Route path="/clients" element={<Clients/>} />
-				<Route path="/projects" element={<Projects title="Latest Projects"/>} />
+				<Route path="/clients" element={<Clients />} />
+				<Route path="/projects" element={<Projects title="Latest Projects" />} />
 				<Route path="*" element={<NotFound />} ></Route>
 			</Routes>
 			<Footer />
+
+			{/* Floating WhatsApp Button */}
+			<FloatingWhatsApp />
 		</CourseContext.Provider>
 	);
 }
