@@ -1,70 +1,162 @@
-# Getting Started with Create React App
+# Zaid Ahmad — Portfolio (zaidahmaddev.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fast, responsive personal website built with **React** to showcase projects, experience, and writing.
+
+**Live:** [https://zaidahmaddev.com](https://zaidahmaddev.com)
+
+---
+
+## Table of Contents
+
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Project Structure](#project-structure)
+* [Getting Started](#getting-started)
+* [Available Scripts](#available-scripts)
+* [Environment Variables](#environment-variables)
+* [Deployment](#deployment)
+* [Performance & Accessibility](#performance--accessibility)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+
+---
+
+## Features
+
+* ⚡️ Modern SPA built with React
+* 📱 Fully responsive layout
+* 🧭 Clean routing for pages/sections
+* 🎨 Easily themed styles (light/dark optional)
+* 🧩 Modular components & data-driven project cards
+* 📈 SEO-friendly metadata
+
+---
+
+## Tech Stack
+
+* **Framework:** React 18
+* **Build Tool:** Vite
+* **Routing:** React Router
+* **Styling:** Plain CSS
+
+---
+
+## Project Structure
+
+```text
+root
+├─ public/                  # Static assets, favicon, OG images
+│  ├─ images/               # Images
+│  ├─ css/vendor            # vendor css files
+│  ├─ js/vendor             # vendor js files
+├─ src/
+│  ├─ Contexts/             # Global states
+│  ├─ components/           # Reusable UI components
+│  ├─ pages/                # Route-level components (Home, Projects, About)
+│  ├─ App.jsx               # App root
+│  └─ main.jsx              # Entry
+├─ package.json
+└─ README.md
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+* **Node.js:** v18+ recommended
+* **Package Manager:** npm or yarn or pnpm
+
+### Installation
+
+```bash
+# clone
+git clone https://github.com/<your-username>/zaidahmaddev.com.git
+cd zaidahmaddev.com
+
+# install deps
+npm install
+# or
+yarn
+# or
+pnpm install
+```
+
+### Run Locally
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Visit [http://localhost:5173](http://localhost:5173) (or the port shown in your terminal).
 
 ## Available Scripts
 
-In the project directory, you can run:
+### Vite
 
-### `npm start`
+* `dev` – start the dev server
+* `build` – production build
+* `preview` – preview the production build locally
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Environment Variables
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Create a `.env` (or `.env.local`) in the project root.
 
-### `npm test`
+```bash
+# Youtube Channel
+VITE_CHANNEL_ID=
+VITE_YOUTUBE_API_KEY=
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can deploy anywhere static sites run well.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Netlify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Build command: `npm run build`
+* Publish directory: `dist` (Vite) or `build` (CRA)
 
-### `npm run eject`
+### GitHub Pages (static export)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Build locally → push `dist/` or `build/` to a `gh-pages` branch via a deploy script
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+> Ensure your router uses hash routing or proper redirects for SPA routes (e.g., Netlify `_redirects` or Vercel `rewrites`).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Performance & Accessibility
 
-## Learn More
+* Audit with **Lighthouse** in Chrome DevTools
+* Lazy-load heavy images/assets
+* Use semantic HTML for screen readers
+* Provide alt text for all images
+* Prefer system fonts or preloaded webfonts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+This is a personal site. External contributions are currently not accepted. Feel free to open an issue for bugs or ideas.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+MIT © Zaid Ahmad
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Contact
 
-### Advanced Configuration
+* **Website:** [https://zaidahmaddev.com](https://zaidahmaddev.com)
+* **Email:** [contact@zaidahmaddev.com](mailto:contact@zaidahmaddev.com)
+* **LinkedIn:** [https://www.linkedin.com/in/zaidahmaddev/](https://www.linkedin.com/in/zaidahmaddev/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
