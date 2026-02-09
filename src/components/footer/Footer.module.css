@@ -1,0 +1,40 @@
+.footerWrapper {}
+
+.description,
+.description a {
+    color: #1e2125;
+}
+
+.description a:hover {
+    color: #f40097;
+}
+
+.logo img {
+    max-height: 100px;
+    transition: 0.3s;
+    border-radius: 50%;
+    border: 1px solid #a09393;
+}
+
+/* wrapper for footer block */
+.footerArea {
+    text-align: center;
+}
+
+/* logo block */
+.logo {
+    max-height: unset;
+    margin: 0 auto;
+}
+
+.logoLink {
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/* Social icons align center inside footer */
+.socialWrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,59 @@
+{
+  "short_name": "Zaid Ahmad",
+  "name": "Zaid Ahmad - Shopify, WordPress & MERN Stack Developer & Instructor",
+  "description": "Portfolio & services by Zaid Ahmad: expert Shopify, WordPress & MERN Stack developer, instructor, and mentor.",
+  "categories": [
+    "developer",
+    "education",
+    "technology"
+  ],
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo_transparent.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo_transparent.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://zaidahmaddev.com",
+  "display": "standalone",
+  "theme_color": "#f40097",
+  "background_color": "#878e99",
+  "shortcuts": [
+    {
+      "name": "My Portfolio",
+      "short_name": "Portfolio",
+      "description": "View featured projects",
+      "url": "/projects",
+      "icons": [
+        {
+          "src": "/logo_transparent.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Clients",
+      "short_name": "Clients",
+      "description": "View featured reviews",
+      "url": "/clients",
+      "icons": [
+        {
+          "src": "/logo_transparent.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+.courses {
+    position: relative;
+    z-index: 1;
+}
+
+.dropdownWrapper,
+.searchWrapper {
+    margin-bottom: 20px;
+}
+
+.srOnly {
+    position: relative;
+    padding: 0 8px 0 0;
+}
+
+.inputGroup {
+    position: relative;
+    justify-content: end;
+}
+
+/* Search input/button (your own classes) */
+.searchInput {
+    border: 2px solid #000;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+    font-size: 17px;
+    height: 45px;
+    padding-left: 18px;
+    border-right: 0;
+}
+
+.searchInput:focus,
+.searchInput:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.searchButton {
+    border: 2px solid #000;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+    background-color: #fff;
+    font-size: 22px;
+    outline: none;
+    padding-right: 10px;
+}
+
+/* ---- Bootstrap overrides must be :global(...) in a module ---- */
+
+:global(.show > .btn-primary.dropdown-toggle) {
+    background: linear-gradient(145deg, #fafafa, #ffffff);
+    color: #f40097;
+    border-color: #fa0097;
+}
+
+:global(.btn-primary:not(:disabled):not(.disabled):active) {
+    border-color: transparent;
+}
+
+:global(.show > .btn-primary.dropdown-toggle:focus),
+:global(.btn-primary:not(:disabled):not(.disabled):active:focus),
+:global(.btn-primary:focus) {
+    box-shadow: 0 0 0 0;
+}
+
+:global(.dropdown button.btn.btn-primary:first-child),
+:global(.btn-primary:not(:disabled):not(.disabled):active:first-child) {
+    border-right-color: transparent;
+}
+
+:global(.dropdown button.btn.btn-primary:last-child),
+:global(.btn-group > .btn:not(:first-child)),
+:global(.btn-primary:not(:disabled):not(.disabled):active:last-child) {
+    border-left-color: transparent;
+}
+
+
+.sectionTitle {
+    margin-bottom: 20px;
+}
+
+.courseContent {
+    margin-bottom: 30px;
+    padding-right: 0;
+    padding-left: 30px;
+}
+
+.course {
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #fafafa, #ffffff);
+    box-shadow: 5px 5px 15px #d1d9e6, -5px -5px 15px #ffffff;
+    z-index: 1;
+    height: 100%;
+    transition: 0.25s;
+    display: inline-block;
+    width: 100%;
+}
+
+.course:hover {
+    transform: translateY(-4px);
+}
+
+.inner {}
+
+.thumbnail {
+    margin-bottom: 20px;
+}
+
+.thumbnail a {
+    display: block;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.thumbImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.content {}
+
+.categoryInfo {
+    margin-bottom: 10px;
+}
+
+.courseDate {
+    color: #f40097;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: block;
+    cursor: default;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.title {}
+
+.titleLink {
+    font-size: 18px;
+    line-height: 30px;
+    transition: 0.4s;
+    font-weight: 600;
+    color: #1e2125;
+    text-decoration: none;
+}
+
+.titleLink:hover {
+    color: #f40097;
+}
+
+.viewAll {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #f40097;
+}
+
+.viewAll:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+}
+
+/* 2 columns on tablet */
+@media (max-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* 1 column on mobile */
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .titleLink {
+        font-size: 20px;
+    }
+}

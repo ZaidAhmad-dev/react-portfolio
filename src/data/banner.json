@@ -1,0 +1,71 @@
+{
+    "title": "Zaid Ahmad",
+    "social_media_title": "Find me at",
+    "banner_img": "https://ik.imagekit.io/zaid/zaid-ahmad-tranparent_ev1t3YP7b.png",
+    "banner_img_srcset": "https://ik.imagekit.io/zaid/tr:w-400/zaid-ahmad-tranparent_ev1t3YP7b.png 400w, https://ik.imagekit.io/zaid/tr:w-800/zaid-ahmad-tranparent_ev1t3YP7b.png 800w, https://ik.imagekit.io/zaid/tr:w-1200/zaid-ahmad-tranparent_ev1t3YP7b.png 1200w",
+    "titles": [
+        {
+            "title": "Developer",
+            "title1": "Instructor",
+            "title2": "Mentor",
+            "title3": "Content Creator"
+        }
+    ],
+    "social_media": [
+        {
+            "name": "facebook",
+            "url": "https://www.facebook.com/ZaidAhmad.Codes",
+            "label": "Zaid Facebook Link",
+            "data_feather": "<FiFacebook />"
+        },
+        {
+            "name": "linkedin",
+            "url": "https://www.linkedin.com/in/zaidahmaddev",
+            "label": "Zaid Linkedin Link",
+            "data_feather": "<FiFacebook />"
+        },
+        {
+            "name": "youtube",
+            "url": "https://www.youtube.com/zaidahmad",
+            "label": "Zaid youtube Link",
+            "data_feather": "<FiFacebook />"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/zaidahmad-dev",
+            "label": "Zaid Github Link",
+            "data_feather": "<FiFacebook />"
+        }
+    ],
+    "technology_icons_title": "best skilled in",
+    "technology_icons": [
+        {
+            "url": "https://ik.imagekit.io/zaid/icons/html-5_lZ1WnsgkN1.png",
+            "alt": "html5"
+        },
+        {
+            "url": "https://ik.imagekit.io/zaid/icons/icons-18__S6PWdLHPT.png",
+            "alt": "CSS3"
+        },
+        {
+            "url": "https://ik.imagekit.io/zaid/icons/js_hE83N4vUag.png",
+            "alt": "JavaScript"
+        },
+        {
+            "url": "https://ik.imagekit.io/zaid/icons/icons-16_BVatmacLsJ.png",
+            "alt": "ReactJS"
+        },
+        {
+            "url": "https://ik.imagekit.io/zaid/icons/node-js-icon.png",
+            "alt": "NodeJS"
+        },
+        {
+            "url": "https://ik.imagekit.io/zaid/icons/shopify_it7T4KSHOW.png",
+            "alt": "Shopify"
+        },
+        {
+            "url": "https://ik.imagekit.io/zaid/icons/icons-20_4s_YfvvbNV.png",
+            "alt": "Wordpress"
+        }
+    ]
+}

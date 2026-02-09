@@ -1,0 +1,11 @@
+.wrapper {}
+
+.title {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #1e2125;
+    display: inline-block;
+    margin-bottom: 20px;
+}
