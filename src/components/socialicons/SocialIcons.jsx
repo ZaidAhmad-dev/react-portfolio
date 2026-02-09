@@ -1,3 +1,4 @@
+// SocialIcons.jsx
 import Link from "next/link";
 import { FiLinkedin, FiGithub, FiYoutube } from "react-icons/fi";
 import styles from "./SocialIcons.module.css";
