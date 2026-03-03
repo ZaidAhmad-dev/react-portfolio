@@ -1,5 +1,5 @@
 import footer from "@/data/banner.json";
-import SocialIcons from "../socialIcons/SocialIcons";
+import SocialIcons from "../socialicons/SocialIcons";
 import Image from "next/image";
 import styles from "./Footer.module.css";
 

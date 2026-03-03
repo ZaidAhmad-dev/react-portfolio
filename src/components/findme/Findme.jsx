@@ -1,5 +1,5 @@
 import styles from "./Findme.module.css";
-import SocialIcons from "../socialIcons/SocialIcons";
+import SocialIcons from "../socialicons/SocialIcons";
 import banner from "@/data/banner.json";
 
 export default function Findme({ variant = "slide" }) {
