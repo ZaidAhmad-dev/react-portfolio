@@ -1,0 +1,110 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(217, 223, 235, 0.8);
+}
+
+.navWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  min-height: 78px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 800;
+  color: var(--text);
+  white-space: nowrap;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.05;
+}
+
+.logoMain {
+  font-size: 1rem;
+}
+
+.logoSub {
+  font-size: 0.78rem;
+  color: var(--primary);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.navLinks {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navLink {
+  color: #1b233b;
+  font-weight: 600;
+  font-size: 0.96rem;
+  transition: color 0.2s ease;
+}
+
+.navLink:hover,
+.navLinkActive {
+  color: var(--primary);
+}
+
+.toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  background: #fff;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .toggle {
+    display: inline-flex;
+  }
+
+  .nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 79px;
+    background: #fff;
+    border-bottom: 1px solid var(--line);
+    padding: 18px 16px 24px;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .navOpen {
+    display: flex;
+  }
+
+  .navLinks {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navCta {
+    width: 100%;
+  }
+}
