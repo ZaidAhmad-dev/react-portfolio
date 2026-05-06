@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from 'next';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import GoogleAnalytics from '@/components/shared/GoogleAnalytics';
@@ -66,6 +67,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <Footer />
         {gaId ? <GoogleAnalytics gaId={gaId} /> : null}
+        <SpeedInsights />
       </body>
     </html>
   );
