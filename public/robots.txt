@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://zaidahmaddev.com/sitemap.xml

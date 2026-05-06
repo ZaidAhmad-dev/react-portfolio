@@ -1,15 +1,16 @@
 {
   "short_name": "Zaid Ahmad",
   "name": "Zaid Ahmad - Shopify, WordPress & MERN Stack Developer & Instructor",
-  "description": "Portfolio & services by Zaid Ahmad: expert Shopify, WordPress & MERN Stack developer, instructor, and mentor.",
+  "description": "Shopify and WordPress development, speed optimization, and 1:1 web development tutoring in React, JavaScript, Node.js, Shopify, and WordPress.",
   "categories": [
-    "developer",
+    "business",
     "education",
+    "productivity",
     "technology"
   ],
   "icons": [
     {
-      "src": "favicon.png",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
@@ -26,7 +27,7 @@
   ],
   "start_url": "https://zaidahmaddev.com",
   "display": "standalone",
-  "theme_color": "#f40097",
+  "theme_color": "#1f6fff",
   "background_color": "#878e99",
   "shortcuts": [
     {

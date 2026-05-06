@@ -13,6 +13,15 @@ dist
 dist-ssr
 *.local
 .env
+.env.*
+!.env.example
+
+# Claude Code local settings
+.claude
+
+# Build artifacts
+tsconfig.tsbuildinfo
+*.tsbuildinfo
 
 # Editor directories and files
 .vscode/*

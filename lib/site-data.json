@@ -1,0 +1,965 @@
+{
+  "site": {
+    "name": "Zaid Ahmad Dev",
+    "shortName": "Zaid Ahmad",
+    "domain": "https://zaidahmaddev.com",
+    "email": "contact@zaidahmaddev.com",
+    "phone": "+1 (910) 418-0395",
+    "location": "Remote",
+    "description": "Shopify and WordPress development, performance optimization, and 1:1 tutoring in React, JavaScript, Node.js, Shopify, and WordPress.",
+    "tagline": "Shopify & WordPress development that improves performance \u2014 plus 1:1 web development tutoring",
+    "profileImage": "https://ik.imagekit.io/zaid/tr:w-1200/zaid-ahmad-tranparent_ev1t3YP7b.png",
+    "keywords": [
+      "Shopify developer",
+      "WordPress developer",
+      "Shopify theme customization",
+      "Shopify speed optimization",
+      "WordPress speed optimization",
+      "React tutor",
+      "JavaScript tutor",
+      "Node.js tutor"
+    ],
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/zaidahmaddev",
+      "youtube": "https://www.youtube.com/zaidahmad",
+      "github": "https://github.com/zaidahmad-dev"
+    }
+  },
+  "nav": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Tutoring",
+      "href": "/tutoring"
+    },
+    {
+      "label": "Case Studies",
+      "href": "/case-studies"
+    },
+    {
+      "label": "Resources",
+      "href": "/resources"
+    },
+    {
+      "label": "About",
+      "href": "/about"
+    }
+  ],
+  "services": [
+    {
+      "slug": "shopify-theme-customization",
+      "title": "Shopify Theme Customization",
+      "eyebrow": "Service",
+      "excerpt": "Custom Shopify section updates, homepage changes, layout improvements, and landing pages that support conversions.",
+      "hero": "Custom Shopify theme updates that improve user experience and support conversion goals.",
+      "metaTitle": "Shopify Theme Customization | Zaid Ahmad",
+      "metaDescription": "Need a Shopify developer for theme customization? Get section updates, landing pages, layout changes, and conversion-focused storefront improvements.",
+      "benefits": [
+        "Custom sections and landing pages",
+        "Homepage and PDP layout improvements",
+        "Theme edits without unnecessary app bloat",
+        "Cleaner storefront UX for mobile and desktop"
+      ],
+      "deliverables": [
+        "Section builds and homepage blocks",
+        "Storefront redesign support",
+        "Product page improvements",
+        "Navigation and collection page cleanup"
+      ],
+      "process": [
+        {
+          "title": "Audit current theme and identify friction points",
+          "description": "Walk through the storefront together, flag conversion blockers, layout issues, and theme limitations, and agree on what's worth changing first."
+        },
+        {
+          "title": "Prioritize quick wins and high-impact improvements",
+          "description": "Break the work into small, scoped tasks ranked by user impact and effort so the storefront sees real improvement quickly."
+        },
+        {
+          "title": "Implement the updates cleanly in theme code",
+          "description": "Build sections, blocks, and template changes directly in the theme — maintainable, app-free where possible, and aligned with your brand."
+        },
+        {
+          "title": "QA responsive behavior and hand off",
+          "description": "Test across mobile, tablet, and desktop, validate against the original goals, and document what changed so future updates stay clean."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What does a Shopify developer do for theme customization?",
+          "answer": "A Shopify developer customizes your theme code to match your brand, build new sections, improve product and collection pages, and handle storefront layout changes that drag-and-drop editors can't handle cleanly. The goal is a faster, more conversion-friendly storefront without depending on bloated third-party apps."
+        },
+        {
+          "question": "How much does it cost to hire a Shopify developer for theme customization?",
+          "answer": "Pricing depends on scope. Small section edits or homepage tweaks are usually a flat project rate, while larger storefront redesigns are quoted after a short discovery call. Book a development consultation and I'll give you a clear estimate based on your specific Shopify project."
+        },
+        {
+          "question": "Can you customize a Shopify theme without breaking future theme updates?",
+          "answer": "Yes. I work directly in the theme code using sections, blocks, and theme settings so changes stay maintainable. When deeper edits are required, I document everything so future Shopify developer or merchant updates don't undo the work."
+        },
+        {
+          "question": "Do you work with existing Shopify themes or only custom builds?",
+          "answer": "Both. I work with popular themes like Dawn, Impulse, Prestige, and Motion, and I also handle custom theme work. If you're not sure whether to keep your current theme or rebuild, that's exactly what the consultation call is for."
+        }
+      ]
+    },
+    {
+      "slug": "shopify-speed-optimization",
+      "title": "Shopify Speed Optimization",
+      "eyebrow": "Service",
+      "excerpt": "Speed improvements for slower storefronts, performance cleanup, app bloat reduction, and better load experience for users.",
+      "hero": "Practical Shopify performance work focused on faster storefronts and a smoother buying experience.",
+      "metaTitle": "Shopify Speed Optimization | Zaid Ahmad",
+      "metaDescription": "Improve your Shopify store speed with theme cleanup, app bloat reduction, Core Web Vitals improvements, and storefront performance optimization.",
+      "benefits": [
+        "Core Web Vitals improvement opportunities",
+        "Script and asset cleanup",
+        "Theme-level performance tuning",
+        "Faster browsing and lower friction on mobile"
+      ],
+      "deliverables": [
+        "Performance review with prioritized fixes",
+        "Theme and section optimization",
+        "App and script load analysis",
+        "Before and after performance notes"
+      ],
+      "process": [
+        {
+          "title": "Benchmark the current storefront",
+          "description": "Run baseline measurements with PageSpeed, Lighthouse, and real-device testing so every later change is measured against a clear starting point."
+        },
+        {
+          "title": "Identify speed bottlenecks by impact",
+          "description": "Prioritize what's actually slowing the store down — heavy apps, oversized media, render-blocking scripts, slow theme blocks — instead of chasing every score."
+        },
+        {
+          "title": "Implement safe performance improvements",
+          "description": "Work on a duplicate theme so the live store stays untouched. Each change is verified against checkout, product pages, and key apps before going live."
+        },
+        {
+          "title": "Retest and summarize the gains",
+          "description": "Re-run benchmarks, document before/after numbers, and hand over notes on what to keep an eye on as the storefront grows."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Why is my Shopify store slow and how can a Shopify developer fix it?",
+          "answer": "Most slow Shopify stores share the same problems: too many apps loading scripts on every page, oversized hero images, render-blocking JavaScript, and themes that ship unused features. A Shopify developer audits these one by one, removes the bloat, and tunes the theme so Core Web Vitals improve without breaking storefront features."
+        },
+        {
+          "question": "How long does Shopify speed optimization usually take?",
+          "answer": "A focused performance project typically runs one to two weeks. The first phase is a benchmark and prioritized fix list, then implementation, then a retest. Larger storefronts with many apps can take longer, but you'll always know the scope before any work starts."
+        },
+        {
+          "question": "Will speed work break my Shopify theme or app integrations?",
+          "answer": "No. The work is done on a duplicate theme so your live store stays online during testing. Each change is verified against checkout, product pages, and key apps before it's published, which is one of the main reasons merchants hire a Shopify developer instead of running automated speed plugins."
+        },
+        {
+          "question": "Do you optimize Shopify stores for Core Web Vitals and Lighthouse?",
+          "answer": "Yes. Both are part of the audit. The bigger goal is faster perceived load and a smoother buying experience on real devices, but Core Web Vitals and Lighthouse scores are tracked before and after so the gains are visible."
+        }
+      ]
+    },
+    {
+      "slug": "wordpress-development",
+      "title": "WordPress Development",
+      "eyebrow": "Service",
+      "excerpt": "WordPress edits, page improvements, technical fixes, redesign support, plugin troubleshooting, and implementation work.",
+      "hero": "Reliable WordPress implementation support for edits, fixes, redesign work, and ongoing maintenance.",
+      "metaTitle": "WordPress Development | Zaid Ahmad",
+      "metaDescription": "Hire a WordPress developer for site updates, redesign support, troubleshooting, plugin fixes, and practical implementation work.",
+      "benefits": [
+        "Theme and page updates",
+        "Technical bug fixes and troubleshooting",
+        "Landing page implementation",
+        "Ongoing maintenance support"
+      ],
+      "deliverables": [
+        "Page and component edits",
+        "Theme customization",
+        "Plugin-level fixes",
+        "Technical implementation support"
+      ],
+      "process": [
+        {
+          "title": "Review the current setup and requirements",
+          "description": "Look at the existing theme, plugins, hosting, and content to understand what exists and where the friction is before suggesting any changes."
+        },
+        {
+          "title": "Define the scope and implementation approach",
+          "description": "Outline what'll be built or fixed, which approach makes the most sense (theme edits vs. plugin work), and what stays untouched."
+        },
+        {
+          "title": "Build or fix the requested pieces",
+          "description": "Implement the work cleanly in the theme or plugin layer — no page-builder bloat, no shortcuts that break on the next WordPress update."
+        },
+        {
+          "title": "Test and provide handoff notes",
+          "description": "QA across devices, verify forms and integrations still work, then leave clear notes so you (or another developer) can maintain it later."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Why hire a WordPress developer instead of using a page builder?",
+          "answer": "Page builders like Elementor or Divi are convenient until the site grows, slows down, or needs something the builder doesn't support. A WordPress developer can edit theme code directly, add reusable blocks, fix conflicts, and keep the site lean — which makes the site faster and easier to maintain long term."
+        },
+        {
+          "question": "Can a WordPress developer help with SEO?",
+          "answer": "Yes. Technical SEO is part of WordPress development: clean HTML structure, semantic headings, fast load times, image handling, schema markup, and proper internal linking. I won't replace your content or marketing strategy, but the foundation will be solid for ranking."
+        },
+        {
+          "question": "Do you work with existing WordPress themes or only build custom?",
+          "answer": "Both. I extend popular themes (Astra, GeneratePress, Kadence, custom blocks themes) when that's the right call, and build custom themes when the project needs full control. The choice depends on the budget, timeline, and how much flexibility you need."
+        },
+        {
+          "question": "What WordPress problems can you fix?",
+          "answer": "Plugin conflicts, broken builds, layout bugs, slow admin, broken forms, theme update issues, migration headaches, and most things that show up in a typical maintenance retainer. If it's a real WordPress development problem, I've probably seen it before."
+        }
+      ]
+    },
+    {
+      "slug": "wordpress-speed-optimization",
+      "title": "WordPress Speed Optimization",
+      "eyebrow": "Service",
+      "excerpt": "Page speed improvements, cleanup, performance tuning, and technical fixes to help WordPress websites load faster and work better.",
+      "hero": "Targeted WordPress speed work to reduce load issues and improve the overall experience.",
+      "metaTitle": "WordPress Speed Optimization | Zaid Ahmad",
+      "metaDescription": "Improve WordPress site speed with performance tuning, asset cleanup, plugin troubleshooting, caching guidance, and technical fixes.",
+      "benefits": [
+        "Faster loading across key pages",
+        "Plugin and script cleanup",
+        "Performance-focused theme changes",
+        "Better user experience and stability"
+      ],
+      "deliverables": [
+        "Performance audit summary",
+        "Frontend and theme optimization",
+        "Plugin and asset cleanup",
+        "Action plan for ongoing maintenance"
+      ],
+      "process": [
+        {
+          "title": "Benchmark the site and identify bottlenecks",
+          "description": "Measure baseline performance with PageSpeed and Lighthouse, then map out which plugins, assets, and templates are dragging the site down most."
+        },
+        {
+          "title": "Reduce heavy assets and unnecessary overhead",
+          "description": "Replace duplicated plugins, shrink oversized media, defer non-critical scripts, and clean out builder bloat that ships unused styles and JavaScript."
+        },
+        {
+          "title": "Optimize templates, scripts, and loading behavior",
+          "description": "Tune caching, CDN configuration, image handling, font loading, and core templates so the site feels noticeably faster on real devices, not just in scores."
+        },
+        {
+          "title": "Retest and document next priorities",
+          "description": "Verify the gains, capture before/after numbers, and hand over a maintenance checklist so performance stays solid as content grows."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "What slows down a WordPress website most?",
+          "answer": "Heavy page builders, oversized images, too many plugins, unoptimized fonts, slow shared hosting, and themes that load every script on every page. A WordPress developer audits each layer, drops what isn't needed, and tunes the rest so the site feels noticeably faster."
+        },
+        {
+          "question": "How much faster can a WordPress developer make my site?",
+          "answer": "Most projects see meaningful improvements in load time, time-to-interactive, and Core Web Vitals. The exact gain depends on the starting point — a builder-heavy site has more room to improve than a lean theme. After the initial audit you'll get a realistic before/after estimate."
+        },
+        {
+          "question": "Will plugins or page builders cause issues during optimization?",
+          "answer": "Sometimes. Plugins that duplicate features, builders that load full libraries on every page, and bloated form scripts are common culprits. The work involves removing or replacing the worst offenders carefully so existing site features keep working."
+        },
+        {
+          "question": "Do you handle caching, CDN, and image optimization?",
+          "answer": "Yes. Caching configuration, CDN setup, image compression, and lazy loading are part of a typical WordPress speed optimization project. The goal is real-world speed improvements, not just a higher PageSpeed score."
+        }
+      ]
+    }
+  ],
+  "tutoring": [
+    {
+      "slug": "react",
+      "title": "React Tutoring",
+      "eyebrow": "Tutoring",
+      "excerpt": "Get help with components, props, state, hooks, projects, debugging, and learning React in a practical way.",
+      "hero": "1:1 React tutoring focused on real project work, debugging, and faster skill growth.",
+      "metaTitle": "React Tutoring | Zaid Ahmad",
+      "metaDescription": "Book React tutoring for project help, debugging, hooks, components, architecture guidance, and interview preparation.",
+      "topics": [
+        "Components, props, state, and hooks",
+        "Debugging project issues",
+        "Component architecture and reuse",
+        "Interview prep and portfolio help"
+      ],
+      "faqs": [
+        {
+          "question": "What will I learn in your React tutoring sessions?",
+          "answer": "Sessions are built around your goals. Most students focus on components, props, state, hooks, project architecture, and debugging real code. As a React tutor I work through your actual project rather than running a generic curriculum, so progress is tied to something you can use."
+        },
+        {
+          "question": "Is your React tutoring suitable for beginners?",
+          "answer": "Yes. Beginners usually start with HTML and JavaScript fundamentals before going deep on React, and that's something we can cover together. If you're new, you may want HTML tutoring or JavaScript tutoring first — I'll point you to the right starting point in your first session."
+        },
+        {
+          "question": "Can a React tutor help with project debugging and code review?",
+          "answer": "That's actually the most common ask. Bring a repo, a failing test, or a feature you're stuck on, and we'll work through it live. Many students hire a React tutor specifically to get unstuck on internship or freelance work."
+        },
+        {
+          "question": "Can you help me prepare for a React developer interview?",
+          "answer": "Yes. Interview prep includes hooks, state management patterns, common gotchas, project structure questions, take-home reviews, and mock walkthroughs. We tailor sessions to the role you're targeting."
+        }
+      ]
+    },
+    {
+      "slug": "javascript",
+      "title": "JavaScript Tutoring",
+      "eyebrow": "Tutoring",
+      "excerpt": "Build confidence with fundamentals, DOM, async concepts, debugging, and real project work with 1:1 support.",
+      "hero": "Practical JavaScript tutoring for learners who want deeper understanding and hands-on support.",
+      "metaTitle": "JavaScript Tutoring | Zaid Ahmad",
+      "metaDescription": "Need a JavaScript tutor? Get one-on-one help with fundamentals, DOM, async JavaScript, debugging, and project support.",
+      "topics": [
+        "JavaScript fundamentals and logic",
+        "DOM manipulation and browser behavior",
+        "Async JavaScript and APIs",
+        "Debugging workflows and project support"
+      ],
+      "faqs": [
+        {
+          "question": "Is HTML tutoring good for beginners before learning JavaScript?",
+          "answer": "Yes. HTML tutoring gives you the page structure mental model that JavaScript later manipulates. If you're brand new to web development, a few sessions of HTML tutoring (and a little CSS) make JavaScript far less confusing. We can blend HTML, CSS, and JavaScript fundamentals as needed."
+        },
+        {
+          "question": "What does a JavaScript tutor cover in 1:1 sessions?",
+          "answer": "Variables, scope, functions, closures, the DOM, events, async/await, fetch, error handling, and project debugging. The exact mix depends on where you are. As a JavaScript tutor I'll meet you at your level rather than push a fixed syllabus."
+        },
+        {
+          "question": "Can you help me debug my JavaScript project?",
+          "answer": "Yes. Bring the code, a description of what's broken, and we'll walk through it together. Most learners find that a single session of guided debugging teaches more than days of solo searching."
+        },
+        {
+          "question": "Should I learn JavaScript before React?",
+          "answer": "Strongly recommended. React assumes you're comfortable with arrays, objects, destructuring, callbacks, and async patterns. If you jump straight to React, expect to come back for JavaScript tutoring later — most students do."
+        }
+      ]
+    },
+    {
+      "slug": "nodejs",
+      "title": "Node.js Tutoring",
+      "eyebrow": "Tutoring",
+      "excerpt": "Learn backend basics, APIs, async workflows, debugging, and Node.js concepts through guided sessions.",
+      "hero": "Node.js tutoring that makes backend concepts easier to apply in real projects.",
+      "metaTitle": "Node.js Tutoring | Zaid Ahmad",
+      "metaDescription": "Book Node.js tutoring for backend basics, Express APIs, async concepts, debugging, project work, and practical learning support.",
+      "topics": [
+        "Node.js runtime fundamentals",
+        "Express and API basics",
+        "Async workflows and error handling",
+        "Project debugging and architecture guidance"
+      ],
+      "faqs": [
+        {
+          "question": "What will I learn in Node.js tutoring?",
+          "answer": "Node.js fundamentals, the event loop, modules, npm, Express routing, REST APIs, environment configuration, error handling, async patterns, and how to debug a real backend project. Sessions are project-driven so you build something real, not toy snippets."
+        },
+        {
+          "question": "Should I learn Node.js after JavaScript or React?",
+          "answer": "After JavaScript, ideally. Node.js is a JavaScript runtime, so JavaScript fundamentals come first. If you've already done some React, switching to Node.js is a smaller jump than starting from scratch — and many full-stack roles expect both."
+        },
+        {
+          "question": "Do you cover Express, APIs, and backend debugging?",
+          "answer": "Yes. Most students come for help with Express routing, middleware, building REST APIs, connecting to databases (MongoDB or Postgres), authentication patterns, and debugging request/response issues. That's the core of practical Node.js tutoring."
+        },
+        {
+          "question": "Can a Node.js tutor help with full-stack project work?",
+          "answer": "Yes. Many sessions cover wiring a React or Next.js frontend to a Node.js backend, or reviewing a MERN-style project end-to-end. Bring the repo and we'll walk through it."
+        }
+      ]
+    },
+    {
+      "slug": "shopify",
+      "title": "Shopify & WordPress Help",
+      "eyebrow": "Tutoring",
+      "excerpt": "Hands-on guidance for storefront changes, CMS workflows, theme structure, section edits, and website troubleshooting.",
+      "hero": "Practical Shopify and WordPress tutoring for learners, freelancers, and junior developers.",
+      "metaTitle": "Shopify & WordPress Tutoring | Zaid Ahmad",
+      "metaDescription": "Get Shopify and WordPress tutoring for theme structure, storefront edits, CMS workflows, troubleshooting, and implementation guidance.",
+      "topics": [
+        "Theme structure and templates",
+        "Section edits and customizations",
+        "CMS and storefront workflows",
+        "Troubleshooting and implementation support"
+      ],
+      "faqs": [
+        {
+          "question": "Can a Shopify tutor help me build my own theme?",
+          "answer": "Yes. Sessions cover Liquid, sections, blocks, theme settings, schema, and how to extend Dawn or a custom theme. Whether you're learning Shopify development for client work or for your own store, a Shopify tutor accelerates the path far more than reading docs alone."
+        },
+        {
+          "question": "Do you offer WordPress tutoring for freelancers and beginners?",
+          "answer": "Yes. WordPress sessions cover theme structure, the loop, custom post types, ACF, page builders vs custom blocks, and common plugin troubleshooting. Great for new freelancers who want to take on real WordPress client work confidently."
+        },
+        {
+          "question": "What's the difference between hiring a Shopify developer and booking a Shopify tutor?",
+          "answer": "A Shopify developer is hired to deliver work for you. A Shopify tutor teaches you to do the work yourself. If you want the project done, book the development service. If you want to grow your own skills, book a Shopify tutor session."
+        },
+        {
+          "question": "Is HTML tutoring useful for Shopify and WordPress storefront work?",
+          "answer": "Very. Both platforms use HTML and CSS heavily, so a few sessions of HTML tutoring make every section edit, layout fix, and theme tweak much easier. If you're early in your journey, start with HTML and layer Shopify or WordPress on top."
+        }
+      ]
+    }
+  ],
+  "caseStudies": [
+    {
+      "slug": "equo-shopify-storefront",
+      "title": "EQUO",
+      "client": "EQUO",
+      "platform": "Shopify",
+      "category": "Sustainable products eCommerce",
+      "siteUrl": "https://shopequo.com/",
+      "image": "https://ik.imagekit.io/zaid/projects/equo-mobile_9nLdikT08.png",
+      "eyebrow": "Shopify project",
+      "excerpt": "Selected Shopify work for a sustainable products brand selling eco-friendly straws, utensils, recycled pencils, and tote bags.",
+      "hero": "EQUO is a sustainability-led storefront presenting alternatives to single-use plastics through a collection-driven Shopify shopping experience.",
+      "metaTitle": "EQUO Project Showcase | Zaid Ahmad",
+      "metaDescription": "Selected Shopify portfolio project for EQUO, a sustainable products storefront focused on collection-led shopping and strong product presentation.",
+      "overview": "This project is best presented as Shopify storefront work for a mission-led consumer brand with multiple product families and strong homepage-to-collection browsing needs.",
+      "focus": "Use this page as a selected-work showcase for ecommerce implementation, collection architecture, mobile storefront UX, and product merchandising without claiming private performance numbers you have not published.",
+      "highlights": [
+        "Mission-led ecommerce presentation",
+        "Collection-first browsing experience",
+        "Product discovery across multiple categories",
+        "Strong fit for mobile shopping flows"
+      ],
+      "focusAreas": [
+        "Homepage merchandising",
+        "Collection structure",
+        "Product presentation",
+        "Mobile storefront UX"
+      ],
+      "stack": [
+        "Shopify",
+        "Liquid",
+        "Frontend implementation",
+        "Ecommerce UX"
+      ]
+    },
+    {
+      "slug": "inklites-custom-lighting-store",
+      "title": "INKLITES",
+      "client": "INKLITES",
+      "platform": "Shopify",
+      "category": "Custom product eCommerce",
+      "siteUrl": "https://inklites.com/",
+      "image": "https://ik.imagekit.io/zaid/projects/inklites-mobile_qfzyP2X0d.png",
+      "eyebrow": "Shopify project",
+      "excerpt": "Selected Shopify work for a custom printed lighting brand focused on branded illuminated products and promotional impact.",
+      "hero": "INKLITES positions custom printed lighting as a branded promotional product with a bold visual storefront and custom-product messaging.",
+      "metaTitle": "INKLITES Project Showcase | Zaid Ahmad",
+      "metaDescription": "Selected Shopify portfolio project for INKLITES, a custom printed lighting brand with a visual product-led storefront.",
+      "overview": "This project works well as a portfolio piece for custom-product ecommerce, where the homepage needs to sell the product concept quickly and support product discovery with strong visuals.",
+      "focus": "Present this as selected Shopify work that showcases brand-led presentation, custom-product selling, and landing-page style homepage structure.",
+      "highlights": [
+        "Visual-first product storytelling",
+        "Strong hero-led value proposition",
+        "Custom-product storefront positioning",
+        "Branded ecommerce presentation"
+      ],
+      "focusAreas": [
+        "Homepage hero structure",
+        "Visual merchandising",
+        "Custom-product messaging",
+        "Conversion-oriented layout"
+      ],
+      "stack": [
+        "Shopify",
+        "Liquid",
+        "Frontend development",
+        "Visual ecommerce UX"
+      ]
+    },
+    {
+      "slug": "noisy-clan-learning-aids-store",
+      "title": "Noisy Clan",
+      "client": "Noisy Clan",
+      "platform": "Shopify",
+      "category": "Music education eCommerce",
+      "siteUrl": "https://noisyclan.com/",
+      "image": "https://ik.imagekit.io/zaid/projects/noisy-clan-mobile_cDp-h0cIfL.png",
+      "eyebrow": "Shopify project",
+      "excerpt": "Selected Shopify work for a music-learning brand selling books, cheat sheets, compasses, stands, and free learning resources.",
+      "hero": "Noisy Clan combines ecommerce and education with a storefront built around music-learning tools, resources, and product-led discovery.",
+      "metaTitle": "Noisy Clan Project Showcase | Zaid Ahmad",
+      "metaDescription": "Selected Shopify portfolio project for Noisy Clan, a music-learning storefront built around educational products and resources.",
+      "overview": "This project is a strong selected-work example for brands that mix educational content, product merchandising, and conversion-focused ecommerce in one experience.",
+      "focus": "Position this project around category navigation, educational product presentation, and storefront clarity for a niche audience with multiple resource types.",
+      "highlights": [
+        "Education-meets-commerce structure",
+        "Multi-category product navigation",
+        "Clear audience-specific positioning",
+        "Resource and product integration"
+      ],
+      "focusAreas": [
+        "Navigation architecture",
+        "Category organization",
+        "Educational product presentation",
+        "Storefront clarity"
+      ],
+      "stack": [
+        "Shopify",
+        "Liquid",
+        "Frontend implementation",
+        "Information architecture"
+      ]
+    },
+    {
+      "slug": "supergut-wellness-storefront",
+      "title": "Supergut",
+      "client": "Supergut",
+      "platform": "Shopify",
+      "category": "Health and wellness eCommerce",
+      "siteUrl": "https://www.supergut.com/",
+      "image": "https://ik.imagekit.io/zaid/projects/supergut-mobile_JXZ9O-OmQ.png",
+      "eyebrow": "Shopify project",
+      "excerpt": "Selected Shopify work for a wellness brand selling daily fiber blends, GLP-1 support products, bars, and curated sets.",
+      "hero": "Supergut is a conversion-focused wellness storefront built around fiber products, gut health positioning, and product-led shopping flows.",
+      "metaTitle": "Supergut Project Showcase | Zaid Ahmad",
+      "metaDescription": "Selected Shopify portfolio project for Supergut, a wellness ecommerce storefront with strong product positioning and conversion-focused structure.",
+      "overview": "This project is ideal to showcase experience with modern health and wellness ecommerce, where trust, product education, and clean conversion paths all matter.",
+      "focus": "Use this as a portfolio example of product merchandising, direct-response landing structure, subscription-aware ecommerce presentation, and mobile-friendly shopping UX.",
+      "highlights": [
+        "Strong product-led conversion structure",
+        "Wellness-focused ecommerce presentation",
+        "Clear category and product hierarchy",
+        "High-value homepage merchandising"
+      ],
+      "focusAreas": [
+        "Product page presentation",
+        "Homepage conversion flow",
+        "Subscription-friendly UX",
+        "Mobile shopping experience"
+      ],
+      "stack": [
+        "Shopify",
+        "Liquid",
+        "Frontend development",
+        "Conversion-focused UX"
+      ]
+    },
+    {
+      "slug": "sidewalk-product-site",
+      "title": "Sidewalk",
+      "client": "Sidewalk",
+      "platform": "WordPress",
+      "category": "Catalog and product website",
+      "siteUrl": "https://sidewalk.se/",
+      "image": "https://ik.imagekit.io/zaid/projects/sidewalk-mobile_6lZ4YBhQH.png",
+      "eyebrow": "WordPress project",
+      "excerpt": "Selected WordPress work for a Swedish product site featuring storage, plastic sleeves, vinyl accessories, and document organization products.",
+      "hero": "Sidewalk is a product-heavy website with a broad assortment, category-driven discovery, and a strong catalog-style structure.",
+      "metaTitle": "Sidewalk Project Showcase | Zaid Ahmad",
+      "metaDescription": "Selected WordPress portfolio project for Sidewalk, a product-focused website with a broad catalog and category-led browsing.",
+      "overview": "This project is a good selected-work example for product-heavy websites that need clean browsing, structured categories, and clear paths into large assortments.",
+      "focus": "Present this project around catalog structure, product discovery, navigation depth, and practical browsing UX for a broad inventory site.",
+      "highlights": [
+        "Large catalog navigation",
+        "Category-led browsing",
+        "Product-heavy information structure",
+        "Strong fit for WordPress product sites"
+      ],
+      "focusAreas": [
+        "Catalog organization",
+        "Navigation depth",
+        "Product listing UX",
+        "Content structure"
+      ],
+      "stack": [
+        "WordPress",
+        "Theme implementation",
+        "Frontend development",
+        "Catalog UX"
+      ]
+    },
+    {
+      "slug": "levanta-saas-marketing-site",
+      "title": "Levanta",
+      "client": "Levanta",
+      "platform": "WordPress",
+      "category": "SaaS marketing website",
+      "siteUrl": "https://levanta.io/",
+      "image": "https://ik.imagekit.io/zaid/projects/Levanta-mobile_Cq4hyDsPc.png",
+      "eyebrow": "WordPress project",
+      "excerpt": "Selected WordPress work for a SaaS brand focused on affiliate marketing software for e-commerce brands and creators.",
+      "hero": "Levanta is a SaaS marketing site built around product positioning, brand trust, demo conversion, and clear multi-audience messaging.",
+      "metaTitle": "Levanta Project Showcase | Zaid Ahmad",
+      "metaDescription": "Selected WordPress portfolio project for Levanta, a SaaS marketing website for affiliate marketing software.",
+      "overview": "This is a strong portfolio example for B2B SaaS websites where homepage messaging, product explanation, social proof, and demo-driven conversion all need to work together.",
+      "focus": "Use this project to show experience with SaaS landing-page structure, trust-building layouts, product storytelling, and conversion-oriented website sections.",
+      "highlights": [
+        "B2B SaaS homepage structure",
+        "Demo-driven conversion flow",
+        "Clear multi-audience messaging",
+        "Strong trust and brand-positioning sections"
+      ],
+      "focusAreas": [
+        "Hero positioning",
+        "CTA hierarchy",
+        "Feature presentation",
+        "Trust-building sections"
+      ],
+      "stack": [
+        "WordPress",
+        "Marketing site implementation",
+        "Frontend development",
+        "B2B SaaS UX"
+      ]
+    },
+    {
+      "slug": "siftscore-ai-recruiting-site",
+      "title": "SiftScore",
+      "client": "SiftScore",
+      "platform": "WordPress",
+      "category": "AI product marketing site",
+      "siteUrl": "https://siftscore.ai/",
+      "image": "https://ik.imagekit.io/zaid/projects/SiftScore-mobile_TCq_zUuLUr.png",
+      "eyebrow": "WordPress project",
+      "excerpt": "Selected WordPress work for an AI recruiting product focused on market maps, talent pools, and relevance-scored search.",
+      "hero": "SiftScore is an AI product site built around recruiting use cases, data credibility, and feature explanation for a niche B2B audience.",
+      "metaTitle": "SiftScore Project Showcase | Zaid Ahmad",
+      "metaDescription": "Selected WordPress portfolio project for SiftScore, an AI recruiting and target-search product website.",
+      "overview": "This project fits well as selected work for AI and B2B product websites where the homepage must quickly explain the product, establish trust, and make technical benefits feel clear.",
+      "focus": "Present this as a website built to communicate AI capabilities clearly, support product understanding, and move qualified visitors toward demos or contact actions.",
+      "highlights": [
+        "Clear AI product messaging",
+        "Feature-led homepage structure",
+        "Data and trust presentation",
+        "B2B lead-generation fit"
+      ],
+      "focusAreas": [
+        "Messaging clarity",
+        "Feature explanation",
+        "Trust and proof sections",
+        "Lead-gen website flow"
+      ],
+      "stack": [
+        "WordPress",
+        "Frontend development",
+        "Marketing site UX",
+        "B2B product design support"
+      ]
+    },
+    {
+      "slug": "trailmate-legal-tech-site",
+      "title": "Trailmate",
+      "client": "Trailmate",
+      "platform": "WordPress",
+      "category": "Legal-tech marketing site",
+      "siteUrl": "https://trailmate.ai/",
+      "image": "https://ik.imagekit.io/zaid/projects/Trailmate-mobile_fNLJNDfzP.png",
+      "eyebrow": "WordPress project",
+      "excerpt": "Selected WordPress work for a legal-tech brand focused on autonomous client communication for modern law firms.",
+      "hero": "Trailmate is a legal-tech marketing site centered on intake, follow-ups, document collection, and case updates for law firms.",
+      "metaTitle": "Trailmate Project Showcase | Zaid Ahmad",
+      "metaDescription": "Selected WordPress portfolio project for Trailmate, a legal-tech website focused on client communication automation.",
+      "overview": "This project works well as selected work for legal-tech and workflow software websites that need clear product explanation, niche positioning, and strong demo-driven calls to action.",
+      "focus": "Use this project to show experience building focused B2B websites with a strong value proposition, solution-specific sections, and conversion-oriented page structure.",
+      "highlights": [
+        "Niche B2B positioning",
+        "Strong value-proposition hierarchy",
+        "Solution-focused content flow",
+        "Demo-oriented website structure"
+      ],
+      "focusAreas": [
+        "Homepage messaging",
+        "Audience-specific sections",
+        "CTA structure",
+        "Product explanation flow"
+      ],
+      "stack": [
+        "WordPress",
+        "Frontend implementation",
+        "B2B website UX",
+        "Conversion-focused layout"
+      ]
+    }
+  ],
+  "booking": [
+    {
+      "slug": "development-consultation",
+      "title": "Book a Development Consultation",
+      "eyebrow": "Booking",
+      "excerpt": "Best for businesses that need Shopify or WordPress help, audits, implementation, or performance work.",
+      "hero": "Start with a focused consultation so we can identify priorities, scope, and the best next step for your website.",
+      "checks": [
+        "Discuss business goals and current blockers",
+        "Review website pain points and priorities",
+        "Outline recommended scope and next steps"
+      ],
+      "faqs": [
+        {
+          "question": "Is the development consultation call free?",
+          "answer": "Yes. The first 15-minute discovery call is free. It's used to understand your project, decide whether you need a Shopify developer, a WordPress developer, or something else, and outline a realistic next step."
+        },
+        {
+          "question": "What happens after I book the consultation?",
+          "answer": "You'll get a confirmation email with the meeting link and a short prep checklist. Bring your website URL, describe your main blocker, and we'll spend the call clarifying scope. After the call you receive a written summary and a recommended path forward."
+        },
+        {
+          "question": "Should I book a Shopify developer call or a WordPress developer call?",
+          "answer": "Either is fine — one consultation slot covers both. Just mention which platform your site uses (or that you're undecided) when you book, and we'll go from there."
+        },
+        {
+          "question": "What if I just need a small fix and not a full project?",
+          "answer": "Small fixes are welcome. A short consultation lets us scope the fix accurately so you don't overpay or wait on something that should be simple."
+        }
+      ]
+    },
+    {
+      "slug": "tutoring-diagnostic",
+      "title": "Book a Tutoring Session",
+      "eyebrow": "Booking",
+      "excerpt": "Best for students and developers who need project help, debugging support, or a clear learning plan.",
+      "hero": "Use the first session to get unstuck, understand your current level, and decide what to focus on next.",
+      "checks": [
+        "Review your goals and blockers",
+        "Assess projects, code, or learning gaps",
+        "Create a practical next-step plan"
+      ],
+      "faqs": [
+        {
+          "question": "What does the first tutoring session cover?",
+          "answer": "The diagnostic session reviews where you are now, what you're stuck on, and what you want next. It works for HTML tutoring beginners, students learning JavaScript or React, and developers needing Shopify tutor or WordPress mentorship. You leave with a concrete plan."
+        },
+        {
+          "question": "Can I book ongoing React, HTML, or Shopify tutor sessions after the diagnostic?",
+          "answer": "Yes. Most students continue weekly or biweekly after the first session. Subjects can rotate as you progress — for example, starting with HTML tutoring, moving to JavaScript, then to React or Node.js."
+        },
+        {
+          "question": "Do I need to bring code or a project to the first session?",
+          "answer": "Helpful but not required. If you have a repo, an assignment, or a bug you're stuck on, bring it. If you don't, we'll use the time to assess your level and plan the right next steps."
+        },
+        {
+          "question": "Are sessions remote? What tools do you use?",
+          "answer": "All sessions are remote over Google Meet or Zoom with screen sharing, plus VS Code Live Share when we're pairing on code. Recordings and notes can be shared after each session if you'd like."
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "slug": "shopify-speed-checklist",
+      "title": "Shopify Speed Checklist",
+      "description": "A practical checklist covering obvious storefront performance wins, app bloat checks, and theme cleanup opportunities.",
+      "tag": "For store owners"
+    },
+    {
+      "slug": "react-debugging-cheatsheet",
+      "title": "React Debugging Cheatsheet",
+      "description": "A simple workflow for isolating component issues, checking state flow, and debugging React project blockers.",
+      "tag": "For developers"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are you a Shopify developer, a WordPress developer, or both?",
+      "answer": "Both. The bulk of client work is split between Shopify development (theme customization, speed optimization, conversion-focused storefront work) and WordPress development (custom themes, plugin troubleshooting, speed work). If your project lives on either platform, I can help."
+    },
+    {
+      "question": "Do you offer React tutoring, HTML tutoring, and Shopify tutor sessions too?",
+      "answer": "Yes. Outside of client work I run 1:1 tutoring sessions. Common requests are React tutor sessions for project debugging, HTML tutor sessions for beginners building their first pages, and Shopify tutor sessions for freelancers learning to customize themes."
+    },
+    {
+      "question": "How much does it cost to hire a Shopify developer or WordPress developer?",
+      "answer": "Pricing depends on the scope. Small fixes are flat-priced, full projects are quoted after a discovery call. Book a free 15-minute consultation and you'll get a clear estimate based on your specific Shopify or WordPress project."
+    },
+    {
+      "question": "Can I book you for both development work and 1:1 tutoring?",
+      "answer": "Yes. Some clients hire me as a Shopify or WordPress developer first and later book React or HTML tutoring for their team. Others go the opposite direction. Both are welcome."
+    },
+    {
+      "question": "Do you work remotely with clients in the US, UK, and Europe?",
+      "answer": "Yes. All work is remote, with flexible timezone overlap. Most clients are in the US, UK, Canada, and Europe, and most tutoring students are in North America and Europe."
+    },
+    {
+      "question": "How do I get started?",
+      "answer": "If you need development help, book a development consultation. If you want tutoring, visit the tutoring pages or book a diagnostic session. Either way, the first call is free."
+    }
+  ],
+  "pageFaqs": {
+    "about": [
+      {
+        "question": "What's your background as a Shopify developer and WordPress developer?",
+        "answer": "Years of hands-on Shopify and WordPress development across ecommerce, SaaS, and niche product sites. Most projects involve theme customization, performance work, or implementation help where a generalist freelancer wouldn't be precise enough."
+      },
+      {
+        "question": "Why do you offer both development services and tutoring (Shopify tutor, React tutor, HTML tutor)?",
+        "answer": "Because the two reinforce each other. Teaching forces clarity, and client work keeps the teaching grounded in real production patterns. It also means you get a tutor who's actively shipping code, not just explaining theory."
+      },
+      {
+        "question": "Where are you based and do you work with international clients?",
+        "answer": "Remote-first, working across US, UK, and European time zones. Most calls happen in mornings or evenings depending on where you are."
+      },
+      {
+        "question": "Can I see proof of your Shopify and WordPress work?",
+        "answer": "Yes — the case studies page has selected ecommerce storefronts and WordPress marketing sites, and the testimonials cover both client and tutoring work."
+      }
+    ],
+    "contact": [
+      {
+        "question": "How quickly do you respond to inquiries?",
+        "answer": "Usually within one business day. If your message is about active project work, response times are faster. WhatsApp tends to be the quickest channel."
+      },
+      {
+        "question": "Should I contact you about Shopify developer work or React tutor sessions through the same form?",
+        "answer": "Yes. The contact form covers everything — Shopify developer projects, WordPress developer projects, React tutoring, HTML tutoring, Shopify tutoring, or general questions. Just describe what you need."
+      },
+      {
+        "question": "Can I message you on WhatsApp or LinkedIn?",
+        "answer": "Yes. WhatsApp and LinkedIn both work for quick conversations. Email is best for project briefs and anything that needs a paper trail."
+      },
+      {
+        "question": "Do you sign NDAs before discussing project details?",
+        "answer": "Yes, when needed. For sensitive client work or pre-launch products, a simple mutual NDA is fine before we share specifics."
+      }
+    ],
+    "services": [
+      {
+        "question": "Which Shopify developer service should I choose?",
+        "answer": "If your storefront design or layout needs work, start with Shopify Theme Customization. If your store is slow on mobile or failing Core Web Vitals, start with Shopify Speed Optimization. If you're not sure, book a consultation and we'll decide together."
+      },
+      {
+        "question": "How is hiring a WordPress developer different from using a designer or page builder?",
+        "answer": "A designer focuses on visuals; a page builder gets you 70% of the way and stops. A WordPress developer writes the theme and plugin code that makes the remaining 30% possible — performance, custom blocks, integrations, and bug fixes that builders can't handle."
+      },
+      {
+        "question": "Can you handle both Shopify and WordPress projects in one engagement?",
+        "answer": "Yes. Some clients run a Shopify storefront alongside a WordPress marketing or blog site. I can handle both under a single working relationship."
+      },
+      {
+        "question": "What's the typical turnaround for a small Shopify or WordPress task?",
+        "answer": "Small focused tasks (a section build, a layout fix, a speed cleanup) often fit into a one-week window. Larger projects are scheduled after a consultation so timelines and scope are realistic."
+      }
+    ],
+    "tutoring": [
+      {
+        "question": "Do you offer 1:1 React tutoring, HTML tutoring, and Shopify tutor sessions?",
+        "answer": "Yes. The tutoring pages cover React, JavaScript, Node.js, and a combined Shopify/WordPress track. HTML tutoring is woven into the JavaScript and Shopify tracks for beginners who need it as a foundation."
+      },
+      {
+        "question": "Is online tutoring effective for beginners learning HTML, JavaScript, or React?",
+        "answer": "Very. 1:1 sessions move faster than self-study because you get unstuck immediately. Most beginners start with HTML tutoring, layer in JavaScript, and progress to React or to a platform like Shopify when they're ready."
+      },
+      {
+        "question": "Can a tutor help me prepare for a junior developer interview?",
+        "answer": "Yes. Interview prep covers JavaScript fundamentals, React patterns, take-home reviews, mock walkthroughs, and portfolio polish. Sessions are tuned to the role you're targeting."
+      },
+      {
+        "question": "What tools do you use during tutoring sessions?",
+        "answer": "Google Meet or Zoom for video, screen sharing for live review, and VS Code Live Share when we pair on code. Recordings and session notes are available on request."
+      }
+    ],
+    "caseStudies": [
+      {
+        "question": "Do these case studies represent typical Shopify developer and WordPress developer work?",
+        "answer": "Yes. The Shopify projects cover storefront customization, custom sections, performance work, and conversion-focused layouts. The WordPress projects cover marketing and product sites, custom themes, and content-heavy build-outs."
+      },
+      {
+        "question": "Can you build a similar Shopify or WordPress site for my business?",
+        "answer": "Yes — most case studies map to a service offer. Book a development consultation, share the case study you liked, and we'll scope something similar for your business."
+      },
+      {
+        "question": "Are case study screenshots from live projects?",
+        "answer": "Yes. Every case study links to the live site. A few have been updated by the client since launch, which is normal for ongoing brands."
+      }
+    ],
+    "resources": [
+      {
+        "question": "Are these resources useful for someone learning with a Shopify tutor or React tutor?",
+        "answer": "Yes. The Shopify Speed Checklist pairs well with Shopify tutor sessions, and the React Debugging Cheatsheet is a common reference for React tutoring students. Use them alongside live sessions for faster progress."
+      },
+      {
+        "question": "Will I get on the email list when I download a resource?",
+        "answer": "Yes — you'll get the file plus occasional notes on Shopify development, WordPress development, and tutoring tips. You can unsubscribe at any time."
+      },
+      {
+        "question": "Do you have free resources for HTML tutoring beginners?",
+        "answer": "More are in the works. For now, beginners are best served by booking a short HTML tutoring session — we can run through the fundamentals far faster live than via PDF."
+      },
+      {
+        "question": "Can I share these resources with my team?",
+        "answer": "Yes. Share the page link rather than the file directly so your team gets the latest version when it's updated."
+      }
+    ],
+    "caseStudyDetail": [
+      {
+        "question": "Can a Shopify developer or WordPress developer build something like this for my business?",
+        "answer": "Yes. Most projects shown here started from a similar brief — an existing storefront or marketing site that needed a focused upgrade. Book a development consultation and reference this case study so we can scope something tailored to your goals."
+      },
+      {
+        "question": "What's the typical timeline for a project like this?",
+        "answer": "Anywhere from one focused sprint (a couple of weeks) to a multi-month engagement, depending on scope. After a discovery call you'll get a clear timeline before any work starts."
+      },
+      {
+        "question": "Do you offer ongoing maintenance after launch?",
+        "answer": "Yes. Many clients stay on a light retainer for ongoing Shopify or WordPress development support — small edits, performance tuning, and occasional new sections."
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Benjamin Perry",
+      "role": "Shopify Client",
+      "service": "Dynamic Pricing",
+      "quote": "Fantastic experience with Zaid! He's been very professional and talented, solution-oriented. Always willing to adjust the scope to fit the project's end goal. Thanks Zaid. Will definitely work with you again!",
+      "rating": 5
+    },
+    {
+      "name": "Raymond Hanemaaijer",
+      "role": "Shopify Client",
+      "service": "Store Customization",
+      "quote": "I gave him a very specific job and he completed it fast and very well. He was really communicative and his work is excellent.",
+      "rating": 5
+    },
+    {
+      "name": "Nick Winters",
+      "role": "Shopify Client",
+      "service": "Mobile Footer Accordion",
+      "quote": "Good and solid work. Created an accordion footer menu for mobile very quickly. Thanks a lot.",
+      "rating": 5
+    },
+    {
+      "name": "Faith Dawson",
+      "role": "React Student",
+      "service": "React Bug Fixing",
+      "quote": "While striving to write more complex React code, I contacted Zaid to be a senior collaborator. He was easy to work with during reviews and feedback. I felt supported and improved significantly.",
+      "rating": 5
+    },
+    {
+      "name": "Thara Messeroux",
+      "role": "MERN Student",
+      "service": "MERN Code Assistance",
+      "quote": "I highly recommend Zaid! He is a talented engineer with amazing web dev skills. Patient, helpful, and explains everything clearly. I've learned a lot from him.",
+      "rating": 5
+    },
+    {
+      "name": "Alexandrea",
+      "role": "Frontend Student",
+      "service": "HTML & CSS Responsiveness",
+      "quote": "Zaid helped me tremendously with my HTML and CSS projects. Clear explanations and very easy to understand. Highly recommended!",
+      "rating": 5
+    },
+    {
+      "name": "Karen Lorence",
+      "role": "WordPress Client",
+      "service": "WordPress Development",
+      "quote": "He was super helpful and met all my needs. Explained everything clearly and made the sessions enjoyable. I’ll be working with him again.",
+      "rating": 5
+    }
+  ]
+}
