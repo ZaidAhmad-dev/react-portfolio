@@ -1236,6 +1236,12 @@ main {
   }
 }
 
+@media (max-width: 900px) {
+  .leadFormRow input {
+    flex: 1 1 56px;
+  }
+}
+
 @media (max-width: 800px) {
 
   .heroWrap,
