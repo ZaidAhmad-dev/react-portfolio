@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import CtaBanner from '@/components/shared/CtaBanner';
 import FaqAccordion from '@/components/shared/FaqAccordion';
+import ResourceForm from '@/components/shared/ResourceForm';
 import SectionHeading from '@/components/shared/SectionHeading';
 import { buildMetadata } from '@/lib/seo';
-import { caseStudies, faqs, resources, services, site, testimonials, tutoringItems } from '@/lib/site-data';
+import { caseStudies, faqs, services, site, testimonials, tutoringItems } from '@/lib/site-data';
 import Image from 'next/image';
 
 export const metadata = buildMetadata({
@@ -288,69 +289,10 @@ export default function HomePage() {
               />
             </div>
 
-            <form className="leadFormEnhanced" action="/subscribe" method="post">
-              <div className="resourceOptions">
-                <label className="resourceOptionCard">
-                  <input
-                    type="radio"
-                    name="resource"
-                    value="shopify-speed-checklist"
-                    defaultChecked
-                  />
-                  <div className="resourceOptionBody">
-                    <span className="resourceOptionEyebrow">For store owners</span>
-                    <h3>Shopify Speed Checklist</h3>
-                    <p>
-                      A practical checklist to help you spot common speed issues,
-                      performance bottlenecks, and storefront friction.
-                    </p>
-                  </div>
-                </label>
-
-                <label className="resourceOptionCard">
-                  <input
-                    type="radio"
-                    name="resource"
-                    value="react-debugging-cheatsheet"
-                  />
-                  <div className="resourceOptionBody">
-                    <span className="resourceOptionEyebrow">For developers</span>
-                    <h3>React Debugging Cheatsheet</h3>
-                    <p>
-                      A quick-reference guide for tracking bugs, fixing component issues,
-                      and debugging React projects more confidently.
-                    </p>
-                  </div>
-                </label>
-              </div>
-
-              <div className="leadFormRow">
-                <label htmlFor="resource-email" className="srOnly">
-                  Email address
-                </label>
-                <input
-                  id="resource-email"
-                  name="email"
-                  type="email"
-                  placeholder="Enter your email address"
-                  required
-                />
-                <button className="btn btnPrimary" type="submit">
-                  Send Me the Resource
-                </button>
-              </div>
-
-              <input
-                type="text"
-                name="company"
-                className="srOnly"
-                tabIndex={-1}
-                autoComplete="off"
-              />
-            </form>
+            <ResourceForm idPrefix="home-resource" />
 
             <p className="formNote">
-              The selected file will download immediately after submit.
+              You&rsquo;ll receive the file in your inbox in about a minute.
             </p>
           </div>
         </div>

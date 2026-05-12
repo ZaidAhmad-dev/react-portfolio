@@ -21,6 +21,11 @@ const RESOURCE_MAP: Record<
 };
 
 export async function POST(request: Request) {
+  const wantsJson = request.headers
+    .get('accept')
+    ?.toLowerCase()
+    .includes('application/json');
+
   try {
     const formData = await request.formData();
 
@@ -32,6 +37,9 @@ export async function POST(request: Request) {
       process.env.NEXT_PUBLIC_SITE_URL || new URL(request.url).origin;
 
     if (company) {
+      if (wantsJson) {
+        return NextResponse.json({ ok: true });
+      }
       return NextResponse.redirect(new URL('/resources', origin), {
         status: 303,
       });
@@ -40,6 +48,12 @@ export async function POST(request: Request) {
     const selectedResource = RESOURCE_MAP[resource];
 
     if (!email || !selectedResource) {
+      if (wantsJson) {
+        return NextResponse.json(
+          { ok: false, message: 'Please pick a resource and enter a valid email.' },
+          { status: 400 }
+        );
+      }
       return NextResponse.redirect(
         new URL('/resources?subscribed=0', origin),
         { status: 303 }
@@ -88,12 +102,27 @@ ${resourceUrl}
 — Zaid Ahmad`,
     });
 
+    if (wantsJson) {
+      return NextResponse.json({
+        ok: true,
+        resourceLabel: selectedResource.label,
+        email,
+      });
+    }
+
     return NextResponse.redirect(
       new URL(`/resources?subscribed=1&email=${encodeURIComponent(email)}`, origin),
       { status: 303 }
     );
   } catch (error) {
     console.error('Subscribe route error:', error);
+
+    if (wantsJson) {
+      return NextResponse.json(
+        { ok: false, message: 'Something went wrong while sending the resource.' },
+        { status: 500 }
+      );
+    }
 
     const origin = new URL(request.url).origin;
     return NextResponse.redirect(

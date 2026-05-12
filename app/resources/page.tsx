@@ -1,6 +1,7 @@
 import CtaBanner from '@/components/shared/CtaBanner';
 import FaqAccordion from '@/components/shared/FaqAccordion';
 import PageHero from '@/components/shared/PageHero';
+import ResourceForm from '@/components/shared/ResourceForm';
 import SectionHeading from '@/components/shared/SectionHeading';
 import { buildMetadata } from '@/lib/seo';
 import { getPageFaqs, resources } from '@/lib/site-data';
@@ -56,49 +57,7 @@ export default function ResourcesPage() {
               />
             </div>
 
-            <form className="leadFormEnhanced" action="/subscribe" method="post">
-              <div className="resourceOptions">
-                {resources.map((item, index) => (
-                  <label className="resourceOptionCard" key={item.slug}>
-                    <input
-                      type="radio"
-                      name="resource"
-                      value={item.slug}
-                      defaultChecked={index === 0}
-                    />
-                    <div className="resourceOptionBody">
-                      <span className="resourceOptionEyebrow">{item.tag}</span>
-                      <h3>{item.title}</h3>
-                      <p>{item.description}</p>
-                    </div>
-                  </label>
-                ))}
-              </div>
-
-              <div className="leadFormRow">
-                <label htmlFor="resource-email" className="srOnly">
-                  Email address
-                </label>
-                <input
-                  id="resource-email"
-                  name="email"
-                  type="email"
-                  placeholder="Enter your email address"
-                  required
-                />
-                <button className="btn btnPrimary" type="submit">
-                  Send Me the Resource
-                </button>
-              </div>
-
-              <input
-                type="text"
-                name="company"
-                className="srOnly"
-                tabIndex={-1}
-                autoComplete="off"
-              />
-            </form>
+            <ResourceForm idPrefix="page-resource" />
 
             <p className="formNote">
               You&rsquo;ll receive the file in your inbox. Check your spam folder if you don&rsquo;t see it within a couple of minutes.
