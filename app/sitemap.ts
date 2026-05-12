@@ -1,10 +1,12 @@
 import type { MetadataRoute } from 'next';
+import { getSortedBlogPosts } from '@/lib/blog';
 import { bookingPages, caseStudies, services, site, tutoringItems } from '@/lib/site-data';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const staticRoutes = ['', '/services', '/tutoring', '/case-studies', '/resources', '/about', '/contact', '/privacy-policy'];
+  const staticRoutes = ['', '/services', '/tutoring', '/case-studies', '/resources', '/blog', '/about', '/contact', '/privacy-policy'];
 
   const now = new Date();
+  const blogPosts = getSortedBlogPosts();
 
   return [
     ...staticRoutes.map((route) => ({
@@ -36,6 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: 'monthly' as const,
       priority: 0.6,
+    })),
+    ...blogPosts.map((post) => ({
+      url: `${site.domain}/blog/${post.slug}`,
+      lastModified: new Date(post.modifiedDate ?? post.publishedDate),
+      changeFrequency: 'monthly' as const,
+      priority: 0.7,
     })),
   ];
 }

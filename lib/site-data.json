@@ -47,6 +47,10 @@
       "href": "/resources"
     },
     {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
       "label": "About",
       "href": "/about"
     }

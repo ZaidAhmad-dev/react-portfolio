@@ -85,6 +85,21 @@ export type FaqItem = {
   answer: string;
 };
 
+export type BlogPostMeta = {
+  slug: string;
+  title: string;
+  description: string;
+  excerpt: string;
+  publishedDate: string;
+  modifiedDate?: string;
+  readingMinutes: number;
+  tags: string[];
+  keywords: string[];
+  heroImage: string;
+  heroImageAlt: string;
+  category: string;
+};
+
 export type SiteData = {
   site: {
     name: string;
