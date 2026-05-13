@@ -25,7 +25,7 @@ export const blogPosts: BlogPost[] = [
       'shopify performance',
       'shopify largest contentful paint',
     ],
-    heroImage: '/images/blog/shopify-lcp-performance.png',
+    heroImage: '/images/blog/shopify-lcp-performance.webp',
     heroImageAlt:
       'Shopify store LCP performance optimization — Core Web Vitals fix order',
     category: 'Performance',
